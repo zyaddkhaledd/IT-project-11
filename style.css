@@ -1,4 +1,8 @@
-div{
-    background-color: red;
-    
+h1{
+    color:aquamarine ;
+    background-color: black;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to bottom, black,aquamarine);
 }
