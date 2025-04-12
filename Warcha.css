@@ -96,6 +96,14 @@ width: 100PX;
   left: 100;
 
 }
+.zoz{
+width: 10px;
+    border: 10px black solid;
+   position: absolute;
+  top: 100;
+  right: 50;
+
+}
 
 /*
 font: font-style font-variant font-weight font-size font-family ;
