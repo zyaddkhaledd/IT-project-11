@@ -27,9 +27,9 @@ h1{
     font-weight: 900;
     font-style: italic;
     font-size: 50px;
-    color: whitesmoke;
+    color: rgb(190, 142, 142);
     padding: 50px 100px 50px 100px;
-    border: 10px rebeccapurple solid;
+    border: 10px rgb(23, 148, 44) solid;
     border-radius: 40px;
     width: 1000px;
     margin: 100px 400px 100px 400px;
