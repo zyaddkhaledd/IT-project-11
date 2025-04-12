@@ -97,11 +97,12 @@ width: 100PX;
 
 }
 .zoz{
-width: 10px;
+    width: 50px;
+    height: auto;
     border: 10px black solid;
-   position: absolute;
+   position:-webkit-sticky;
   top: 100;
-  right: 50;
+  right: 100;
 
 }
 
