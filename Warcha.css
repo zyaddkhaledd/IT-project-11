@@ -1,3 +1,5 @@
-h1{
-    background-color: rgb(136, 34, 119);
+p{ font-size: larger;
+    border: 2px solid rgb(136, 34, 119);
+ margin: 10px;
+ padding: 10px;   
 }
