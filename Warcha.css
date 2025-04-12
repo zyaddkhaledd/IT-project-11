@@ -89,6 +89,12 @@ font-size: xx-large;
 width: 100PX;
     background: crimson ;
 }
+.osama{
+   position: absolute;
+  top: 100;
+  left: 100;
+
+}
 
 /*
 font: font-style font-variant font-weight font-size font-family ;
