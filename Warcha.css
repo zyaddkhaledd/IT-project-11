@@ -13,7 +13,8 @@ body{
     display: flex;
 }
 .container{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183),rgba(0, 0, 0, 0.776)), url(photo/94a8c96e916653f9a948442bba9c3a24.jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183),rgba(0, 0, 0, 0.776)), 
+    url(photo/صورة_لأهرامات_الجيزة_وتعتبر_أثر_فرعوني_جيلوجي.jpg);
     width: 100%;
     background-repeat:no-repeat;
     background-size: cover;
