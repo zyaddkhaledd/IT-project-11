@@ -5,6 +5,9 @@
     margin: 0;
 }
 a{
+    padding: 5px;
+    border-radius: 10px ;
+    border: 5px burlywood solid;
     color:goldenrod;
     text-decoration: none;
 }
@@ -25,6 +28,7 @@ header{
     padding: 10px;
 }
 .logo{
+    border-radius: 15px;
     font-size: 40px;
     font-weight: bold;
     word-spacing: 10px;
