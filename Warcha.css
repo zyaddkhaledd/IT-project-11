@@ -29,6 +29,10 @@ header{
     font-weight: bold;
     word-spacing: 10px;
     text-transform: uppercase;
+    color: burlywood;
+    border: 10px burlywood solid;
+    margin: 20px;
+    padding: 20px;
 }
 ul{
     width: 60%;
