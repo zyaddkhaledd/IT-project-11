@@ -1,107 +1,42 @@
-/*div{
-    background-color:rgb(255, 0, 0);
-    height: 50px;
-    width: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
 }
-.abd{
-color: brown;
-text-align: center;
-border: 10px black solid;
-border-radius: 10px ;
+a{
+    color: white;
+    text-decoration: none;
 }
-.zz{
-    background-color: rgb(0, 255, 0);
-  
-    
-}*/
 body{
-    background-image:url(https://www.sqorebda3.com/vb/attachments/28268/);
-    background-repeat: repeat;
-    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183),rgba(0, 0, 0, 0.776)), url(photo/94a8c96e916653f9a948442bba9c3a24.jpg);
+    width: 100%;
+    background-repeat:no-repeat;
     background-size: cover;
-    
-
 }
-
-h1{
-    font-weight: 900;
-    font-style: italic;
-    font-size: 50px;
-    color: whitesmoke;
-    padding: 50px 100px 50px 100px;
-    border: 10px rebeccapurple solid;
-    border-radius: 40px;
-    width: 1000px;
-    margin: 100px 400px 100px 400px;
-    
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
-
-#kill {
-    border-top : 10px  solid black  ;
-    border-right : 10px  solid black  ;
-    border-left : 10px  solid black  ;
-    border-bottom: 10px  solid black ;
-    border-radius : 40px;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgba(255, 0, 0, 0.863);
-
-    text-align: center;
-    
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-transform: uppercase;
 }
-
-.di{
-    height: 200px;
-    color: darkgray;
-    text-align: center;
-    font-style: italic;
-    font-family: serif;
-    font-size: 100px;
-    border-bottom : 10px  solid black  ;
-    border-right : 10px  solid black  ;
-    border-left : 10px  solid black  ;
- 
-    background-image: linear-gradient(to right,black 45%,red 55% 65%, transparent);
-    background-position: left;
-    top: 300px;
+ul{
+    width: 60%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
-h2{
-    font-weight: 900;
-    font-style: italic;
-    font-size: 50px;
-    color: red;
-    padding: 50px 100px 50px 100px;
-    border: 10px crimson;
-    border-radius: 40px;
-    width: 300px;
-    margin: 100px 600px 100px 600px;
-    
-}
-ul, ol{
-    list-style-position: inside ;
-    list-style-type: decimal-leading-zero;
-    
-}
-li{
-font-size: xx-large;
-width: 100PX;
-    background: crimson ;
-}
-.osama{
-    border: 10px black solid;
-   position: absolute;
-  top: 100;
-  left: 100;
-
-}
-.zoz{
-    width: 50px;
-    height: auto;
-    border: 10px black solid;
-   position:-webkit-sticky;
-  top: 100;
-  right: 100;
-
+li:hover{
+    background-color: rgba(240, 255, 255, 0.251);
 }
