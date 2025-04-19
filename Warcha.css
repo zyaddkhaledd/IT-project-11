@@ -52,4 +52,9 @@ ul{
 }
 li:hover{
     background-color: rgba(240, 255, 255, 0.251);
+};
+/*Abo_Elkeir كل واحد يكتب الكود بتاعه يحط كومنت اقبله   */
+.loginh{
+color: rgb(57, 105, 78);
+text-align: center;
 }
