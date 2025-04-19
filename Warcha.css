@@ -33,12 +33,12 @@ header{
 }
 .logo{
     border-radius: 15px;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     word-spacing: 10px;
     text-transform: uppercase;
-    color: burlywood;
-    border: 10px burlywood solid;
+    color: rgb(245, 221, 191);
+    border: 10px rgb(240, 216, 183) solid;
     margin: 20px;
     padding: 20px;
     font-family:serif;
@@ -52,4 +52,9 @@ ul{
 }
 li:hover{
     background-color: rgba(240, 255, 255, 0.251);
+};
+/*Abo_Elkeir كل واحد يكتب الكود بتاعه يحط كومنت اقبله   */
+.loginh{
+color: rgb(57, 105, 78);
+text-align: center;
 }
