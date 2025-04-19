@@ -1,5 +1,25 @@
+body{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.121),rgba(0, 0, 0, 0.897)), 
+    url(photo/cd26605d-c6d4-4d38-b66e-46cab5096ec2.jpg);
+    background-attachment:scroll;
+    width:auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex-grow:3;
+}
 .loginh{
     color: rgb(57, 105, 78);
     text-align: center;
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-transform: uppercase;
+
+    border: 10px rgb(240, 216, 183) solid;
+    margin: 20px;
+    padding: 20px;
+    font-family:serif;
     }
     
