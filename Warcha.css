@@ -17,8 +17,9 @@ body{
 }
 .container{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183),rgba(0, 0, 0, 0.776)), 
-    url(photo/photo_2025-04-19_18-06-34.jpg);
-    width: 100%;
+    url(photo/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    width: 1920px;
+    height: 1080px;
     background-repeat:no-repeat;
     background-size: cover;
 }
