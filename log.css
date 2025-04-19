@@ -7,6 +7,8 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     flex-grow:3;
+    background-position: center;
+
 }
 .loginh{
     color: rgb(57, 105, 78);
