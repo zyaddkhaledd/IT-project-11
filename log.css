@@ -1,0 +1,27 @@
+body{
+    background-image:
+    url(photo/1b6e044a-8733-456e-a7d3-2484d547ca4d.jpg);
+    background-attachment:scroll;
+    width:auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex-grow:3;
+    background-position: center;
+
+}
+.loginh{
+    color: rgb(57, 105, 78);
+    text-align: center;
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-transform: uppercase;
+
+    border: 10px rgb(240, 216, 183) solid;
+    margin: 20px;
+    padding: 20px;
+    font-family:serif;
+    }
+    
