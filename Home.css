@@ -37,7 +37,7 @@ header{
     font-weight: bold;
     word-spacing: 10px;
     text-transform: uppercase;
-    color: rgb(245, 221, 191);
+    color:rgb(245, 221, 191);
     border: 10px rgb(240, 216, 183) solid;
     margin: 20px;
     padding: 20px;
@@ -51,7 +51,9 @@ ul{
     list-style: none;
 }
 li:hover{
-    background-color: rgba(240, 255, 255, 0.251);
+    
     text-decoration: underline
-};
-
+}
+.aa:hover{
+    color: rgb(0, 0, 0);
+}
