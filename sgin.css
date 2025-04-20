@@ -36,3 +36,31 @@ body{
     cursor: pointer;
     padding-right: 30px;
 }
+.warning{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+  
+    
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px ;
+    border: 5px burlywood double;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.message{
+    width: 150px;
+    background-color: burlywood;
+    font-size: 30px;
+    color: black;
+    text-align:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
