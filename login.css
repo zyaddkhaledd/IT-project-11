@@ -1,8 +1,8 @@
 body{
-    background: url(photo/IMG-20250419-WA0190.jpg);
+    background: url(photo/IMG_8590.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-
+    background-position:center ;
     
 
 }
@@ -17,7 +17,7 @@ body{
 }
 
 .Login{
-    font-size: 20px;
+    font-size: 23px;
     width: 300px;
     margin: 0 auto;
     padding: 30px;
@@ -34,4 +34,5 @@ body{
     border: 2px solid #000000;
     margin: 5px;
     cursor: pointer;
+    padding-right: 30px;
 }
