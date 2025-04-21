@@ -50,11 +50,21 @@ body{
   
     
 }
+.warning a:hover{
+    color:  burlywood;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px burlywood double;
+    margin-left: 20px;
+    transition: 1s;
+} 
 .a1{
     text-decoration: none;
     color: black;
     font-size: 25px;
     padding: 5px;
+    padding-right: 10px;
     border-radius: 10px ;
     border: 5px burlywood double;
     margin-left: 20px;
