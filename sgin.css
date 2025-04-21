@@ -11,7 +11,7 @@ body{
     font-style: italic;
     font-weight: bold;
     color: burlywood;
-
+    
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +23,17 @@ body{
     padding: 30px;
     border: 10px double burlywood;
     border-radius: 5px;
+    box-shadow: 0px 0px 15px 15px black;
     
+}
+.sign1{
+    font-size: 23px;
+    margin: 10px;
+    padding: 30px;
+    align-items: center;
+    color:burlywood ;
+
+
 }
 .btn{
     background-color: burlywood;
@@ -34,6 +44,7 @@ body{
     border: 2px solid #000000;
     margin: 5px;
     padding-right: 30px;
+    font-family: cursive;
 }
 .btn:hover{
     background-color: #000000;
@@ -47,10 +58,11 @@ body{
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
+    font-family:Cambria, Cochin;
   
     
 }
-.warning a:hover{
+.a1:hover{
     color:  burlywood;
     background-color: black;
     border-radius: 10px;
@@ -70,13 +82,17 @@ body{
     margin-left: 20px;
     margin-top: 20px;
     display: inline-block;
+    font-family:cursive;
+    
 }
 .message{
-    width: 150px;
-    background-color: burlywood;
+    width: 300px;
+    height: 150px;
     font-size: 30px;
     color: black;
-    text-align:left;
+     text-align: start;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family:sans-serif;
+
 }
