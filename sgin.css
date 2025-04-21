@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 
-.Login{
+.sign{
     font-size: 23px;
     width: 300px;
     margin: 0 auto;
@@ -33,7 +33,13 @@ body{
     border-radius: 5px;
     border: 2px solid #000000;
     margin: 5px;
-    cursor: pointer;
+    padding-right: 30px;
+}
+.btn:hover{
+    background-color: #000000;
+    color: bisque;
+    border-radius: 5px;
+    margin: 5px;
     padding-right: 30px;
 }
 .warning{
