@@ -14,7 +14,7 @@ body{
     background-color: #eee;
 }
 div.header{
-    background-color: #2c3e50;
+    background: linear-gradient(to right, #bb8021, #c49d02);
     color: white;
     text-align: center;
     padding: 20px;
