@@ -3,7 +3,7 @@
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-style: normal;
+    font-style:normal;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -43,7 +43,6 @@ div.content-booking-page{
     animation: something 1s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 @keyframes something{
     from{
         opacity: 0;
@@ -92,4 +91,19 @@ p{
 }
 .stars{
     text-align: right;
+}
+ul{
+    width: 60%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    direction: ltr;
+}
+.links {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.links:hover {
+    color: #81483b;
 }
