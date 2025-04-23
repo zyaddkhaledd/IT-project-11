@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     direction: rtl;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 body{
     background-color: #FFF8E1;
@@ -73,7 +73,7 @@ img:hover{
 div.content-booking-page button{
     margin-top: 10px;
     padding: 10px 0px;
-    background-color: #C49E3A;
+    background-color: #00285c;
     color: white;
     border: none;
     border-radius: 20px;
@@ -82,7 +82,7 @@ div.content-booking-page button{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 div.content-booking-page button:hover{
-    background-color: #A77C1D;
+    background-color: #071627;
     transform: translateY(-3px);
 }
 p{
