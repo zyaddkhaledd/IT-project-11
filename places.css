@@ -1,0 +1,196 @@
+body{
+    background-image: linear-gradient( to top right, rgb(0, 0, 0) , rgb(71, 39, 39) , transparent 125%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#head{
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 3em;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+/*pyramids*/
+.container1{
+    width: 400px;
+    line-height: 20px;
+    text-align: center ;
+    translate: 10% 5%;
+}
+#photo1{
+    width: 350px;
+    height: auto ;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 20px black;
+}
+.text1{
+    margin: 5px 5px 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#link1{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration: none;
+    letter-spacing: 1px;
+} 
+/*GEM*/
+.container2{
+    width: 500px;
+    text-align: center;
+    translate: 99% 30%;
+}
+.photo2{
+    width: 400px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+}
+.text2{
+    margin: 5px 0 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.link2{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+/*siwa*/
+.container3{
+    width: 500px;
+    text-align: center;
+    translate: 200% -180%;
+}
+.photo3{
+    width: 400px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px black;
+}
+.text3{
+    margin: 5px 0 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.link3{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+/*abu simbel temple*/
+.container4{
+    width: 500px;
+    text-align: center;
+    translate: 1% -220%;
+}
+.photo4{
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+}
+.text4{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0 15px 0;
+}
+.link4{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    letter-spacing: 1px;
+}
+/*karnak temple*/
+.container5{
+    width: 500px;
+    text-align: center;
+    translate: 100% -315%;
+}
+.photo5{
+    width: 330px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+}
+.text5{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0 15px 0;
+}
+.link5{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    letter-spacing: 1px;
+}
+/*philae temple*/
+.container6{
+    width: 500px;
+    text-align: center;
+    translate: 197% -499%;
+}
+.photo6{
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.text6{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0 15px 0;
+}
+.link6{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    letter-spacing: 1px;
+}
