@@ -1,5 +1,5 @@
 body{
-    background: url(photo/62d7b6fa-6906-45f9-aa2f-7ce74136546f.png);
+    background: url(photo/d34c9c7f-dad1-4ea9-91c9-b32687ad24aa.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center ;
@@ -10,10 +10,11 @@ body{
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color: burlywood;
+    color:blanchedalmond;
     
     padding: 20px;
     text-align: center;
+    
 }
 .link{
     text-decoration: none;
@@ -57,7 +58,7 @@ body{
     align-items: center;
     color:burlywood ;
     backdrop-filter: blur(10px);
-    
+
 
 
 }
