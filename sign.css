@@ -1,0 +1,125 @@
+body{
+    background: url(photo/d34c9c7f-dad1-4ea9-91c9-b32687ad24aa.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center ;
+    
+
+}
+.header{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color:blanchedalmond;
+    
+    padding: 20px;
+    text-align: center;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    padding-right: 10px;
+    border-radius: 10px ;
+    border: 5px burlywood double;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family:cursive;
+    display: inline;
+    background-color: burlywood;
+    
+}
+.link:hover{
+    color:  burlywood;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px burlywood double;
+    margin-left: 30px;
+    transition: 1s;
+}    
+
+.sign{
+    font-size: 23px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 10px double burlywood;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 15px black;
+    
+}
+.sign1{
+    font-size: 23px;
+    margin: 10px;
+    padding: 30px;
+    align-items: center;
+    color:burlywood ;
+    backdrop-filter: blur(10px);
+
+
+
+}
+.btn{
+    background-color: burlywood;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    margin: 5px;
+    padding-right: 30px;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: #000000;
+    color: bisque;
+    border-radius: 5px;
+    margin: 5px;
+    padding-right: 30px;
+}
+.warning{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family:Cambria, Cochin;
+  
+    
+}
+.a1:hover{
+    color:  burlywood;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px burlywood double;
+    margin-left: 20px;
+    transition: 1s;
+} 
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    padding-right: 10px;
+    border-radius: 10px ;
+    border: 5px burlywood double;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    font-family:cursive;
+    
+}
+.message{
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+    color: black;
+     text-align: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:sans-serif;
+    font-weight: bolder;
+}

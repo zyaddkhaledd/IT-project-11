@@ -1,3 +1,77 @@
-h1{
-    color: brown;
+body{
+    background-image: linear-gradient(to right, #e7dba1, #f2f2f2);
 }
+.head{
+  
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+      font-size: 40px;
+      font-weight: bold;
+      word-spacing: 10px;
+      text-transform: uppercase; 
+      margin: 20px;
+      padding: 20px;
+      font-family:serif;
+      text-align: center;
+}
+.title{
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: inherit;
+    font-variant: small-caps;
+  
+}
+.title::first-letter{
+    font-size: 50px;
+    
+}
+hr{
+      border: 1px solid black;
+      width: 100%;
+      margin: 20px
+}
+.top{
+    background-image:url(photo/WhatsApp\ Image\ 2025-04-20\ at\ 17.03.45_f6259ea0.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    border: 10px rgb(166, 144, 99) solid;
+    border-radius: 0px 30px ;
+}
+input{ background-color: #e7dba1;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+       padding: 5px;
+      border-radius: 5px ;
+      border: 1px solid #000000;
+      margin: 1px ;
+      width: 40px;
+}
+#Statue{
+      width: 200px;
+      border-radius: 10px ;
+      border: #000000 solid 2px;
+}
+.king{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.the_text{
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    font-display: swap;
+    font-weight: 900;
+    color: #000000;
+}
+#necklace{
+    width: 300px;
+    border-radius: 10px ;
+    border: #000000 solid 2px;
+}
+    
+  
+  
