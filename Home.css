@@ -39,11 +39,13 @@ header{
     margin: 20px;
     padding: 20px;
     font-family:serif;
+
 }
 ul{
     width: 60%;
     font-size: 20px;
     display: flex;
+    gap: 150px;
     justify-content: space-evenly;
     list-style: none;
 }
@@ -56,4 +58,18 @@ ul{
     margin-left: 20px;
     transition: 0.5s;
     
+}
+.head{
+    background-image: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0.317));
+    animation: head 2s ease-in-out;
+}
+@keyframes head{
+    from{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }    
 }
