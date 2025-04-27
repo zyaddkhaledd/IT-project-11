@@ -74,7 +74,7 @@ input{ background-color: #e7dba1;
 }
 .form button{
     background-color:rgb(94, 94, 143);
-    color: #ffffff;
+    color: #e7dba1;
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -82,7 +82,7 @@ input{ background-color: #e7dba1;
 
 }
 .form button:hover{
-    background-color: #ffff;
+    background-color:cornsilk;
     color: rgb(94, 94, 143);
     transition: 0.3s;
     border-radius: 100px;
