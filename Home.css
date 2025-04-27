@@ -1,75 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{
+
+
+* {
     font-family: "Ubuntu", sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box; 
 }
-a{
-    padding: 5px;
-    border-radius: 10px ;
-    border: 5px burlywood double;
-    color:goldenrod;
-    text-decoration: none;
-}
-body{
-    height: 100vh;
+
+body {
     display: flex;
+    min-height: 100vh; 
+    background-color: #f4f4f4; 
 }
-.container{
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183),rgba(0, 0, 0, 0.776)), 
-    url(photo/wallpaperflare.com_wallpaper__7_.jpg);
-    width: 100%;
-    background-repeat:no-repeat;
+
+.container {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.183), rgba(0, 0, 0, 0.776)),
+                      url(photo/wallpaperflare.com_wallpaper__7_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh; 
+    padding: 20px; 
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px; 
+    margin-bottom: 30px; 
 }
-.logo{
-    border-radius: 15px;
+
+.logo {
     font-size: 40px;
     font-weight: bold;
     word-spacing: 10px;
     text-transform: uppercase;
     color: burlywood;
-    border: 10px burlywood solid;
-    margin: 20px;
-    padding: 20px;
-    font-family:serif;
+    border: 8px burlywood solid; 
+    border-radius: 15px;
+    padding: 15px 25px; 
+    font-family: serif;
+}
 
-}
-ul{
-    width: 60%;
-    font-size: 20px;
-    display: flex;
-    gap: 150px;
-    justify-content: space-evenly;
+ul {
     list-style: none;
+    display: flex;
+    gap: 100px; 
+    font-size: 20px;
 }
-.aa:hover{
+
+a {
+    padding: 8px 15px; 
+    border-radius: 8px; 
+    border: 3px burlywood double; 
+    color: goldenrod;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.aa:hover {
     color: black;
     background-color: burlywood;
-    border-radius: 10px;
-    padding: 5px;
-    border: 5px burlywood double;
-    margin-left: 20px;
-    transition: 0.5s;
-    
+    border: 3px burlywood double;
+    text-decoration: none; 
 }
-.head{
-    background-image: linear-gradient(to bottom ,black,rgba(0, 0, 0, 0.317));
+
+.head {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)); 
     animation: head 2s ease-in-out;
+    border-radius: 10px; 
 }
-@keyframes head{
-    from{
+
+@keyframes head {
+    from {
         opacity: 0;
-        transform: translateY(15px);
+        transform: translateY(-10px); 
     }
-    to{
+    to {
         opacity: 1;
         transform: translateY(0px);
-    }    
+    }
+}
+
+.content_home_page {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 30px;
+    gap: 40px; 
+    flex-grow: 1; 
+}
+
+.img_container {
+    width: auto;
+    max-width: 600px; 
+    background-color: rgba(255, 217, 0, 0.16);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease;
+    animation: head 2s ease-in-out;
+}
+
+.img_container:hover {
+    background-color: rgba(255, 217, 0, 0.5); 
+}
+
+.img_container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.img_container img:hover {
+    transform: scale(1.03); 
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.content_home_page .pragh {
+    width: auto;
+    max-width: 500px; 
+    color: rgba(255, 217, 0, 0.74);
+    text-align: left;
+    direction: ltr;
+    font-size: 1.5em; 
+    line-height: 1.6; 
+    animation: head 2s ease-in-out;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.299);
+    border-radius: 8px;
+    transition: background-color 1s ease;
+}
+.content_home_page .pragh:hover{
+    background-color: rgba(0, 0, 0, 0.872);
+}
+.video_container{
+    /* background-color:rgba(255, 217, 0, 0.24); */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 600px;
+}
+video{
+    width: 90%;
+    height:100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
