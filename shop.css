@@ -72,6 +72,11 @@ input{ background-color: #e7dba1;
     border-radius: 10px ;
     border: #000000 solid 2px;
 }
+#perfume{
+    width: 300px;
+    border-radius: 10px ;
+    border: #000000 solid 2px;
+}
 .form button{
     background-color:rgb(94, 94, 143);
     color: #e7dba1;
