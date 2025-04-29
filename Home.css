@@ -244,6 +244,8 @@ video{
     text-align:center;
     padding: 20px;
     flex-wrap: wrap;
+    font-weight: bolder;
+    font-variant:small-caps;
 }
 
 .box_1 .discover {
@@ -293,6 +295,8 @@ video{
     text-align:center;
     padding: 20px;
     flex-wrap: wrap;
+    font-weight: bolder;
+    font-variant:small-caps;
 }
 
 .box_2 .discover {
@@ -341,6 +345,8 @@ video{
     text-align:center;
     padding: 20px;
     flex-wrap: wrap;
+    font-weight: bolder;
+    font-variant:small-caps;
 }
 
 .box_3 .discover {
