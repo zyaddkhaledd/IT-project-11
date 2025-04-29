@@ -22,14 +22,14 @@ body {
     padding: 20px;  
 }
 
-/* .container {
-} */
+
 /* this is the navbar */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px; 
+    padding: 10px 10px; 
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 5px; 
     margin-bottom: 30px; 
@@ -88,88 +88,9 @@ ul {
         transform: translateY(0px);
     }
 }
-<<<<<<< Updated upstream
 
-.content_home_page {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center; 
-    padding: 30px;
-    gap: 40px; 
-    flex-grow: 1; 
-}
-
-.img_container {
-    width: auto;
-    max-width: 600px; 
-    background-color: rgba(255, 217, 0, 0.16);
-    border-radius: 10px;
-    padding: 15px;
-    margin: 0; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-    transition: background-color 0.3s ease;
-    animation: head 2s ease-in-out;
-}
-
-.img_container:hover {
-    background-color: rgba(255, 217, 0, 0.5); 
-}
-
-.img_container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-}
-
-.img_container img:hover {
-    transform: scale(1.03); 
-    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.6);
-}
-
-.content_home_page .pragh {
-    width: auto;
-    max-width: 500px; 
-    color: rgba(255, 217, 0, 0.74);
-    text-align: left;
-    direction: ltr;
-    font-size: 1.5em; 
-    line-height: 1.6; 
-    animation: head 2s ease-in-out;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, 0.299);
-    border-radius: 8px;
-    transition: background-color 1s ease;
-}
-.content_home_page .pragh:hover{
-    background-color: rgba(0, 0, 0, 0.872);
-}
-.video_container {
-    width: 100%;
-    max-width: 100%; /* يمنع تجاوز عرض الصفحة */
-    height: auto;
-    aspect-ratio: 16 / 9; /* يحدد تناسُب العرض للطول بشكل تلقائي */
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: head 2s ease-in-out;
-}
-
-.video_container video {
-    width: 100%;
-    height: 410px; 
-    object-fit: contain; /* يحافظ على تناسُب الفيديو */
-    display: block;
-}
-
-
-=======
 /* welcome to egypt */
->>>>>>> Stashed changes
+
 .h11{
     color:black;
     display: flex;
@@ -201,7 +122,9 @@ ul {
         left:  200%;
     }
 }
-/* content of page */
+
+/* دا الكود بتاع الصوره والفيديو والبراجراف */
+
 .content_home_page_1 {
     display: flex;
     flex-direction: row; 
@@ -263,12 +186,19 @@ ul {
     align-items: center;
     margin-top: 100px;
     width: 100%;
+    max-width: 100%;
     height: 600px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
 }
 video{
     width: 100%;
     height:100%;
+    object-fit: contain;
 }
+
+/* دا الكود بتاع بوكسات الإختيار */
+
 .content_home_page_2 {
     width: 100%;
     display: flex;
@@ -281,6 +211,9 @@ video{
     gap: 70px; 
     flex-grow: 1; 
 }
+
+/* اول بوكس من الشمال */
+
 .content_home_page_2 .box_1{
     background-color: rgba(255, 217, 0, 0.74);
     flex-direction: column;
@@ -296,7 +229,6 @@ video{
 .content_home_page_2 .box_1:hover{
     color: gold;
     background-color: black;
-    /* box-shadow:0px 0px 0px  ; */
     transform: scale(1.03); 
 }
 .content_home_page_2 .box_1 img{ 
@@ -328,6 +260,9 @@ video{
     background-color:gold;
     text-decoration: none; 
 }
+
+/* البوكس اللي في النص */
+
 .content_home_page_2 .box_2{
     background-color: rgba(255, 217, 0, 0.74);
     flex-direction: column;
@@ -343,7 +278,6 @@ video{
 .content_home_page_2 .box_2:hover{
     color: gold;
     background-color: black;
-    /* box-shadow:0px 0px 0px  ; */
     transform: scale(1.03); 
 }
 .content_home_page_2 .box_2 img{ 
@@ -375,6 +309,7 @@ video{
     background-color:gold;
     text-decoration: none; 
 }
+/* اخر بوكس */
 .content_home_page_2 .box_3{
     background-color: rgba(255, 217, 0, 0.74);
     flex-direction: column;
@@ -390,7 +325,6 @@ video{
 .content_home_page_2 .box_3:hover{
     color: gold;
     background-color: black;
-    /* box-shadow:0px 0px 0px  ; */
     transform: scale(1.03); 
 }
 
