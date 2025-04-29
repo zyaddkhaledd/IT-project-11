@@ -56,7 +56,6 @@ body {
     padding: 30px;
     align-items: center;
     color: #bfa54d;
-    
     gap: 10px;
     text-align: center;
 }
@@ -68,7 +67,7 @@ body {
     border: 5px solid #d4af37;
     border-radius: 10px;
     font-size: 17px;
-    color: #3d3d3d;
+    color: #a09090;
 }
 
 .btn {
