@@ -31,21 +31,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; 
+    padding: 30px 20px; 
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 5px; 
     margin-bottom: 30px; 
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     word-spacing: 10px;
     text-transform: uppercase;
     color: burlywood;
     border: 8px burlywood solid; 
     border-radius: 15px;
-    padding: 15px 25px; 
+    padding: 15px 50px; 
     font-family: serif;
 }
 
@@ -63,6 +63,7 @@ a {
     color: goldenrod;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease; 
+    font-size:20px ;
 }
 
 .aa:hover {
@@ -70,6 +71,7 @@ a {
     background-color: burlywood;
     border: 3px burlywood double;
     text-decoration: none; 
+    
 }
 
 .head {
@@ -150,16 +152,17 @@ a {
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-top: 100px;
-    margin-left: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
     width: 1000px;
-    height: 600px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;   /* يمنع خروج الفيديو برا الإطار */
+    object-fit: cover;  /* يخلي الفيديو يملأ الإطار من غير تشويه */
+    display: block;
+    animation: head 2s ease-in-out; /*  بتعمل حاجه غريبه شويه تحس ان شاشه بتعمل ريفريش اول ما تفتح الصفحه*/
 }
-video{
-    width: 90%;
-    height:100%;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-}
+
 .h11{
     color:black;
     display: flex;
