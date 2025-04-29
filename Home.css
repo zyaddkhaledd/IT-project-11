@@ -147,21 +147,26 @@ a {
 .content_home_page .pragh:hover{
     background-color: rgba(0, 0, 0, 0.872);
 }
-.video_container{
-    /* background-color:rgba(255, 217, 0, 0.24); */
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 1000px;
-    height: 500px;
+.video_container {
+    width: 100%;
+    max-width: 100%; /* يمنع تجاوز عرض الصفحة */
+    height: auto;
+    aspect-ratio: 16 / 9; /* يحدد تناسُب العرض للطول بشكل تلقائي */
     border-radius: 10px;
-    overflow: hidden;   /* يمنع خروج الفيديو برا الإطار */
-    object-fit: cover;  /* يخلي الفيديو يملأ الإطار من غير تشويه */
-    display: block;
-    animation: head 2s ease-in-out; /*  بتعمل حاجه غريبه شويه تحس ان شاشه بتعمل ريفريش اول ما تفتح الصفحه*/
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: head 2s ease-in-out;
 }
+
+.video_container video {
+    width: 100%;
+    height: 410px; 
+    object-fit: contain; /* يحافظ على تناسُب الفيديو */
+    display: block;
+}
+
 
 .h11{
     color:black;
