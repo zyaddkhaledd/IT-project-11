@@ -1,136 +1,138 @@
-body{
-    background: url(photo/d34c9c7f-dad1-4ea9-91c9-b32687ad24aa.png);
-    background-repeat:no-repeat;
+body {
+    background-color:rgba(0, 0, 0, 0.902); 
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;
-    
-
+    background-position: center;
 }
-.header{
+
+.header {
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color:#5c5252;
-    
+    color: #bfa54d; /* ذهبي ملكي */
     padding: 20px;
     text-align: center;
-    
 }
-.link{
+
+.link {
     text-decoration: none;
-    color: black;
+    color: #3d3d3d;
     font-size: 25px;
     padding: 5px;
     padding-right: 10px;
-    border-radius: 10px ;
-    border: 5px burlywood double;
+    border-radius: 10px;
+    border: 5px double #d4af37;
     margin-left: 20px;
     margin-top: 20px;
-    font-family:cursive;
+    font-family: cursive;
     display: inline;
-    background-color: burlywood;
-    
+    background-color: #f0e3c3;
 }
-.link:hover{
-    color:  burlywood;
-    background-color: black;
+
+.link:hover {
+    color: white;
+    background-color: #a88734;
     border-radius: 10px;
     padding: 5px;
-    border: 5px burlywood double;
+    border: 5px double #d4af37;
     margin-left: 30px;
     transition: 1s;
-}    
+}
 
-.sign{
+.sign {
     font-size: 23px;
     width: 300px;
- 
     margin: 0 auto;
     padding: 30px;
-    border: 10px double burlywood;
+    border: 10px double #d4af37;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px 15px black;
-    
+    box-shadow: 0px 0px 15px 10px rgba(212, 175, 55, 0.2);
+    background-color: #252421;
 }
-.sign1{
+
+.sign1 {
     font-size: 30px;
     margin: 10px;
     padding: 30px;
     align-items: center;
-    color:burlywood ;
-    backdrop-filter: blur(5px);
+    color: #bfa54d;
+    
     gap: 10px;
     text-align: center;
 }
-.sign1 input{
-   
+
+.sign1 input {
     background-color: unset;
     margin: 5px auto;
     padding: 10px;
-    border: 5px solid #5c5252;
+    border: 5px solid #d4af37;
     border-radius: 10px;
     font-size: 17px;
-  
+    color: #3d3d3d;
 }
 
-.btn{
-    background-color: burlywood;
-    color: black;
+.btn {
+    background-color: #d4af37;
+    color: white;
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 2px solid #a88734;
     margin: 5px;
     padding-right: 30px;
     font-family: cursive;
 }
-.btn:hover{
-    background-color: #000000;
-    color: bisque;
+
+.btn:hover {
+    background-color: #a88734;
+    color: white;
     border-radius: 5px;
     margin: 5px;
     padding-right: 30px;
 }
-.warning{
-    color: red;
+
+.warning {
+    color: #b22222;
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
-    font-family:Cambria, Cochin;
-  
-    
+    font-family: Cambria, Cochin;
 }
-.a1:hover{
-    color:  burlywood;
-    background-color: black;
-    border-radius: 10px;
-    padding: 5px;
-    border: 5px burlywood double;
-    margin-left: 20px;
-    transition: 1s;
-} 
-.a1{
+
+.a1 {
     text-decoration: none;
-    color: black;
+    color: #3d3d3d;
     font-size: 25px;
     padding: 5px;
     padding-right: 10px;
-    border-radius: 10px ;
-    border: 5px burlywood double;
+    border-radius: 10px;
+    border: 5px double #d4af37;
     margin-left: 20px;
     margin-top: 20px;
     display: inline-block;
-    font-family:cursive;
-    
+    font-family: cursive;
+    background-color: #f0e3c3;
 }
-.message{
+
+.a1:hover {
+    color: white;
+    background-color: #a88734;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px double #d4af37;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+.message {
     width: 300px;
     height: 150px;
     font-size: 20px;
-    color: black;
-     text-align: start;
+    color: #967e7e;
+    text-align: start;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bolder;
 }
+
