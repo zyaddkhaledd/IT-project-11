@@ -10,7 +10,7 @@ body{
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color:blanchedalmond;
+    color:#5c5252;
     
     padding: 20px;
     text-align: center;
@@ -44,6 +44,7 @@ body{
 .sign{
     font-size: 23px;
     width: 300px;
+ 
     margin: 0 auto;
     padding: 30px;
     border: 10px double burlywood;
@@ -52,16 +53,26 @@ body{
     
 }
 .sign1{
-    font-size: 23px;
+    font-size: 30px;
     margin: 10px;
     padding: 30px;
     align-items: center;
     color:burlywood ;
-    backdrop-filter: blur(10px);
-
-
-
+    backdrop-filter: blur(5px);
+    gap: 10px;
+    text-align: center;
 }
+.sign1 input{
+   
+    background-color: unset;
+    margin: 5px auto;
+    padding: 10px;
+    border: 5px solid #5c5252;
+    border-radius: 10px;
+    font-size: 17px;
+  
+}
+
 .btn{
     background-color: burlywood;
     color: black;
