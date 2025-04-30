@@ -4,17 +4,24 @@ body {
     background-size: cover;
     background-position: center;
 }
+::selection {
+    background-color: #d4af37;
+    color: #3d3d3d;
+}
+
 
 .header {
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color: #bfa54d; /* ذهبي ملكي */
+    color: #bfa54d; 
     padding: 20px;
     text-align: center;
+    text-shadow:5px 2px 5px rgba(105, 96, 42, 0.667);
+    position: relative;
+    translate: 0 -10px;
 }
-
-.link {
+.link{
     text-decoration: none;
     color: #3d3d3d;
     font-size: 25px;
@@ -27,6 +34,7 @@ body {
     font-family: cursive;
     display: inline;
     background-color: #f0e3c3;
+ 
 }
 
 .link:hover {
@@ -38,6 +46,7 @@ body {
     margin-left: 30px;
     transition: 1s;
 }
+
 
 .sign {
     font-size: 23px;
@@ -67,9 +76,8 @@ body {
     border: 5px solid #d4af37;
     border-radius: 10px;
     font-size: 17px;
-    color: #a09090;
+    color: #997c1c;
 }
-
 .btn {
     background-color: #d4af37;
     color: white;
@@ -133,5 +141,7 @@ body {
     margin-bottom: 10px;
     font-family: sans-serif;
     font-weight: bolder;
+    translate: 10px -10px;
+    
 }
 

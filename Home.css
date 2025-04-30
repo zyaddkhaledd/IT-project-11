@@ -7,6 +7,10 @@
     margin: 0;
     box-sizing:border-box; 
 }
+::selection {
+    background-color: #d4af37;
+    color: #3d3d3d;
+}
 
 body {
     display: flex;
@@ -54,7 +58,7 @@ ul {
     font-size: 20px;
 }
 
-.aa {
+.link {
     padding: 8px 15px; 
     border-radius: 8px; 
     border: 3px burlywood double; 
@@ -62,9 +66,11 @@ ul {
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease; 
     font-size:20px ;
+
+
 }
 
-.aa:hover {
+.link:hover {
     color: black;
     background-color:gold;
     border: 3px black double;
@@ -151,9 +157,9 @@ ul {
         } */
         
  .img_container img {
-    width: 80%;
+    width: 85%;
     animation: head 2s ease-in-out;
-    height: auto;
+    height: 850px;
     margin-top: 100px;
     border-radius: 8px;
     box-shadow: 0px 8px 16px rgba(255, 217, 0, 0.792);
@@ -165,19 +171,29 @@ ul {
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.6);
 }
 
-.content_home_page_1 .pragh {
+.content_home_page_1  .pragh {
     width: auto;
     margin-top: 50px;
     max-width: 500px; 
     color: rgba(255, 217, 0, 0.74);
     text-align: left;
     direction: ltr;
+    font-family: fantasy;
     font-weight: bolder;
-    font-variant:small-caps;
-    font-size: 1.5em; 
+    font-size: 25px; 
     line-height: 1.6; 
     animation: head 2s ease-in-out;
     transition: background-color 1s ease;
+    padding: 20px;
+    scale: 1.3;
+}
+.content_home_page_1  .pragh:hover {
+    background-color: rgba(255, 217, 0, 0.16);
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease;
 }
 
 .video_container{
