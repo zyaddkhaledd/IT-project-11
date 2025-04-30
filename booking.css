@@ -11,6 +11,10 @@
     direction: rtl;
     text-transform: uppercase;
 }
+::selection {
+    background-color: #d4af37;
+    color: #3d3d3d;
+}
 body{
     background-color: #FFF8E1;
     color: #4E342E;
