@@ -1,21 +1,21 @@
 body{
-    background-image: linear-gradient(to right, #e7dba1, #f2f2f2);
+   background-image: linear-gradient(to right, #e7dba1, #f2f2f2);
+   font-family: 'Raleway', sans-serif;
 }
-::selection {
+:selection {
     background-color: #d4af37;
     color: #3d3d3d;
 }
 .head{
   
-    font-family: "Playfair Display", serif;
-    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
       font-size: 40px;
-      font-weight: bold;
+      font-weight: 700;
       word-spacing: 10px;
       text-transform: uppercase; 
       margin: 20px;
       padding: 20px;
-      font-family:serif;
       text-align: center;
 }
 .title{
