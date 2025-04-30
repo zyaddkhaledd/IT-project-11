@@ -104,6 +104,7 @@ body {
     text-align: center;
     margin-top: 10px;
     font-family: Cambria, Cochin;
+    scale: 0.9;
 }
 
 .a1 {
@@ -118,7 +119,7 @@ body {
     margin-top: 20px;
     display: inline-block;
     font-family: cursive;
-    background-color: #cec4a0;
+    background-color: goldenrod;
 }
 
 .a1:hover {
