@@ -6,6 +6,36 @@ body{
     background-color: #d4af37;
     color: #3d3d3d;
 }
+ul {
+  
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end; /* يخلي العناصر تترص يمين */
+    list-style: none;
+    direction: ltr;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    color: rgb(100, 87, 87);
+    transition: color 0.2s ease-in-out;
+}
+.links:hover {
+    color: #000000;
+}
+h3{
+
+    border: #000000 double 5px;
+    border-radius: 10px;
+    padding:5px ;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: inherit;
+    font-variant: small-caps;
+    
+}
 .head{
   
     font-family: "Raleway", sans-serif;
@@ -108,4 +138,6 @@ input{ background-color: #e7dba1;
     transition: 0.3s;
     
 }
+
+
 
