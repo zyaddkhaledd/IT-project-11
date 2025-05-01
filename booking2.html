@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking2.css">
+    <title>Reservation</title>
+</head>
+<body>
+    <h1>
+        Confirm your reservation now!
+    </h1>
+
+    <div class="formsContainer">
+        <form id="form1" class="form" method="get">
+            <label for="name">Full name</label>
+            <input id="name" type="text" name="name" required placeholder="Enter your full name">
+            <br>
+            <br>
+            <label for="number">Phone number</label>
+            <input id="number" type="tel" name="number" required placeholder="Enter your phone number">
+            <br>
+            <br>
+            <label for="address">Country</label>
+            <input id="address" type="text" name="address" required placeholder="Enter your nationality">
+            <br>
+            <br>
+            <label for="tickets">Tickets</label> 
+            <input id="tickets" type="number" name="tickets" max="5" min="1" required placeholder="How many tickets do you want?">
+            <br>
+            <br>
+            <label for="time">Date</label>
+            <input id="time" type="date" name="date" required>
+            <br>
+            <br>
+            <button type="submit" class="left_arrow">Add a card</button>
+        </form>
+   
+
+   
+        <form id="form2" class="form" method="post">
+            <label for="holder">Card holder name</label>
+            <input id="holder" type="text" name="holder" required placeholder="Enter card holder name">
+            <br>
+            <br>
+            <label for="cardnum">Card number</label>
+            <input id="cardnum" type="text" name="card number" required placeholder="Enter your card number">
+            <br>
+            <br>
+            <label for="cvv">CVV</label>
+            <input id="cvv" type="text" name="secure code" required placeholder="Secure Code" maxlength="3">
+            <br>
+            <br>
+            <label for="date">Expiry</label>
+            <input id="date" type="month" name="expiration" required>
+            <br>
+            <p class="p1">Price of each ticket : 200 L.E</p>
+            <br>
+            <button type="submit" class="check">Confirm</button>
+
+
+        </form>
+    </div>
+
+<script>
+        document.addEventListener("DOMContentLoaded",function (){
+    const form1 = document.getElementById("form1");
+    const form2 = document.getElementById("form2");
+
+    form1.addEventListener("submit", function (event) {
+        event.preventDefault();
+        form2.style.display = "block";     
+    });
+});
+</script>
+    
+
+</body>
+</html> 
