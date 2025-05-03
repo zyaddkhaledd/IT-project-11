@@ -90,7 +90,7 @@ ul {
 
 .link:hover {
     color: black;
-    background-color:gold;
+    background-color:goldenrod;
     border: 3px black double;
     text-decoration: none; 
     
