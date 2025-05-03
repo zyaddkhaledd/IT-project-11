@@ -36,7 +36,7 @@ header {
     align-items: center;
     margin: 0 auto;
     padding: 10px 0px; 
-    background-color: rgba(0, 0, 0, 0.5); 
+    /* background-color: rgba(0, 0, 0, 0.548);  */
     border-radius: 10px; 
     margin-bottom: 30px; 
     position: fixed;
@@ -97,11 +97,11 @@ ul {
 }
 
 .head {
-    /* background-image: linear-gradient(to bottom,rgba(218, 165, 32, 0.475), rgba(0, 0, 0, 0.7));  */
-    background-color: black;
-    /* box-shadow: 5px 5px 10px rgba(255, 217, 0, 0.47); */
     animation: head 2s ease-in-out;
-    border-radius: 10px; 
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);  
 }
 
 @keyframes head {
