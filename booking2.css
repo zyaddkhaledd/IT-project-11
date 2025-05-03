@@ -3,6 +3,31 @@ body {
     background-image: url(photo/photo_2025-05-01_01-47-20.jpg);
     background-size: cover;
 }
+ul {
+  
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end; 
+    list-style: none;
+    direction: ltr;
+}
+.links {
+    color: rgb(100, 87, 87);
+    transition: color 0.2s ease-in-out;
+}
+.links:hover {
+    color: #000000;
+}
+h3{
+    border: #000000 double 5px;
+    border-radius: 10px;
+    padding:5px ;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: inherit;
+    
+}
 
 h1 {
     text-align: center;

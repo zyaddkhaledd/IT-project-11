@@ -6,11 +6,12 @@ body{
     background-color: #d4af37;
     color: #3d3d3d;
 }
+/* القوائم الرئيسيه  */
 ul {
-  
+  wi
     font-size: 15px;
     display: flex;
-    justify-content: flex-end; /* يخلي العناصر تترص يمين */
+    justify-content: flex-end;
     list-style: none;
     direction: ltr;
     padding: 0;
@@ -123,7 +124,7 @@ input{ background-color: #e7dba1;
     border-radius: 100px;
 }
 
-/* جزء النصوص */
+/* جزء وصف المنتجات*/
 .product_main{
     text-align: center;
     font-size: 20px;
@@ -137,6 +138,19 @@ input{ background-color: #e7dba1;
     color: #000000;
     transition: 0.3s;
     
+}
+.search{
+    border: #000000 double 6px;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 900;
+    font-size: 20px;
+
+
 }
 
 
