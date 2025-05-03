@@ -301,7 +301,7 @@ video{
 /* Footer Styles */
 footer {
     width: 100%;
-    height: 400px;
+    height: 220px;
     background-color: goldenrod;
     color: black;
     padding: 2rem 5% 0;
@@ -311,26 +311,30 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 2rem;
+    gap: 250px;
 }
 
 .footer-section {
     flex: 1;
     padding: 0 1rem;
-    margin-top: 70px;
+    margin-top: 0.5px;
 }
 
 .footer-section h3 {
     font-size: 24px;
     color: black;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 5px;
     margin-bottom: 15px;
+    display: inline-block;
+    width: fit-content;
+
 }
 
 .footer-section ul {
