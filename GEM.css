@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(53, 22, 22);
+}
+
+.head{
+    background-color: beige;
+    text-align: center;
+    font-family: garamond;
+    color: rgb(53, 22, 22);
+    font-size: 5em;
+    /*border: 2px solid beige;*/
+    padding: 5px;
+    margin: 50px;
+}
+
+.sec{
+    display: flex;
+}
+div>p{
+    color: beige;
+    margin: 15px;
+    font-size: 2em;
+}
+img{
+    width: 500px;
+    border: 2px solid white;
+}
