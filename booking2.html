@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="booking2.css">
+  <link rel="icon" href="./photo/bookinglogo.png">
+  <title>Reservation</title>
+</head>
+<body>
+    <div class="header_item"><ul>
+        <li><a href="home.html" class="links"><h3>Home</h3></a></li>
+        <li><a href="booking.html" class="links"><h3>Tickets</h3></a></li>
+        <li><a href="login.html" class="links"><h3>Log in</h3></a></li>
+        <li><a href="#" class="links"><h3>About</h3></a></li>
+      </ul></div>
+    <h1>
+        Confirm your reservation now!
+    </h1>
+
+    <div class="formsContainer">
+        <form id="form1" class="form" method="get">
+            <div class="field_2">
+            <label for="name">Full name</label>
+            <input id="name" type="text" class="field_1"  name="name" required placeholder="Enter your full name">
+            </div>
+            <div class="field_2">
+            <label for="number">Phone number</label>
+            <input id="number" type="tel" class="field_1" name="number" required placeholder="Enter your phone number">
+            </div>
+            <div class="field_2">
+            <label for="address">Country</label>
+            <input id="address" type="text" class="field_1" name="address" required placeholder="Enter your nationality">
+            </div>
+            <div class="field_2">
+            <label for="tickets">Tickets</label> 
+            <input id="tickets" type="number" class="field_1" name="tickets" max="5" min="1" required placeholder="How many tickets do you want?">
+            </div>
+            <div class="field_2">
+            <label for="time">Date</label>
+            <input id="time" type="date" class="field_1" name="date" required>
+            </div>
+            <button type="submit" class="left_arrow">Add a card</button>
+        </form>
+   
+
+   
+        <form id="form2" class="form" method="post">
+            <div class="field_2">
+            <label for="holder">Card holder name</label>
+            <input id="holder" type="text" class="field_1" name="holder" required placeholder="Enter card holder name">
+            </div>
+            <div class="field_2">
+            <label for="cardnum">Card number</label>
+            <input id="cardnum" class="field_1" name="card number" required placeholder="Enter your card number" maxlength="16">
+            </div>
+            <div class="field_2">
+            <label for="cvv">CVV</label>
+            <input id="cvv" type="text" class="field_1" name="secure code" required placeholder="Secure Code" maxlength="3">
+            </div>
+            <div class="field_2">
+            <label for="date">Expiry</label>
+            <input id="date" type="month" class="field_1" name="expiration" required>
+            </div>
+            <p class="p1">Price of each ticket : 200 L.E</p>
+            <button type="submit" class="check">Confirm</button>
+
+
+        </form>
+    </div>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const form1 = document.getElementById("form1");
+          const form2 = document.getElementById("form2");
+
+          form1.addEventListener("submit", function (event) {
+              event.preventDefault();
+              form2.classList.add("show");
+          });
+      });
+  </script>
+</body>
+</html>

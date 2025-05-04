@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Booking Page</title>
   <link rel="stylesheet" href="./booking.css">
-  <link rel="icon" type="image/png" href="./pexels-mahmut-31674879.jpg">
+  <link rel="icon" type="" href="./photo/bookinglogo.png">
 </head>
 <body>
 <div class="header">
@@ -16,6 +16,31 @@
       <li><a href="login.html" class="links"><h3>Log in</h3></a></li>
       <li><a href="#" class="links"><h3>About</h3></a></li>
     </ul></div>
+    <br>
+      <div class="search">
+        <form onsubmit="goPage(); return false;">
+          <label for="page">Select a place to learn more about it</label>
+          <select id="page">
+            <option value="">↓↓↓</option>
+            <option value="pyramids.html">Pyramids</option>
+            <option value="Grand Egyptian Museum.html">Grand Egyptian Museum</option>
+            <option value="abu simbel temple.html">Abu Simbel Temple</option>
+            <option value="siwa oases.html">Siwa Oases</option>
+            <option value="karnak temple.html">Karnak Temple</option>
+            <option value="philae temple.html">Philae Temple</option>
+          </select>
+          <button type="submit">GO NOW</button>
+        </form>
+      </div>
+        
+        <script>
+          function goPage() {
+            var selectedPage = document.getElementById("page").value;
+            if (selectedPage) {
+              window.location.href = selectedPage;
+            }
+          }
+        </script>
     <br>
     <br>
     <h1>! Discover The Magic Of Egypt</h1>
@@ -32,7 +57,7 @@
     <br>
     <div class="stars">⭐ 4.2</div>
     <br>
-    <button><a href=""><h3>Book Now</h3></a></button>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
     <br>
   </div>
   <div class="pyramids">
@@ -43,7 +68,7 @@
     <br>
     <div class="stars">⭐ 4.6</div>
     <br>
-    <button><a href=""><h3>Book Now</h3></a></button>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
     <br>
   </div>
   <div class="philae">
@@ -54,7 +79,7 @@
     <br>
     <div class="stars">⭐ 4</div>
     <br>
-    <button><a href=""><h3>Book Now</h3></a></button>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
     <br>
   </div>
   <div class="simbel">
@@ -65,7 +90,7 @@
     <br>
     <div class="stars">⭐ 3.4</div>
     <br>
-    <button><a href=""><h3>Book Now</h3></a></button>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
     <br>
   </div>
   <div class="siwa">
@@ -76,7 +101,18 @@
     <br>
     <div class="stars">⭐ 4.8</div>
     <br>
-    <button><a href="#"><h3>Book Now</h3></a></button>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
+    <br>
+  </div>
+  <div class="karnk">
+    <p class="karnk">Karnk Temple</p>
+    <br>
+    <img src="./photo/11481.webp" alt="">
+    <br>
+    <br>
+    <div class="stars">⭐ 3</div>
+    <br>
+    <button><a href="booking2.html"><h3>Book Now</h3></a></button>
     <br>
   </div>
 </div>
