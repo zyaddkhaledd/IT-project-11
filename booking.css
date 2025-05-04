@@ -76,7 +76,7 @@ img:hover{
 div.content-booking-page button{
     margin-top: 10px;
     padding: 10px 0px;
-    background-color: #001f4d;
+    background-color: rgb(21, 21, 47);
     color: white;
     border: none;
     border-radius: 20px;
@@ -110,4 +110,17 @@ ul{
 }
 .links:hover {
     color: #81483b;
+}
+.search{
+    border: #000000 double 6px;
+    border-radius: 10px;
+    width: 600px;
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
