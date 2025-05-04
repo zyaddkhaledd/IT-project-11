@@ -1,5 +1,5 @@
 body{
-   background-image: linear-gradient(to right, #e7dba1, #f2f2f2);
+   background-image: url('shop/Background.jpg');
    font-family: 'Raleway', sans-serif;
 }
 :selection {
