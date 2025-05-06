@@ -63,12 +63,12 @@ h1 {
   line-height: 1.6;
 }
 
-.wrapper {
+/* .wrapper {
   position: relative;
   left: 380px;
   width: 1000px;
   height: 100%;
-}
+} */
 
 .wrapper .form-box {
 
@@ -143,7 +143,7 @@ h1 {
 
 .feedback {
   position: absolute;
-  top: 42%;
+  top: 960px;
   color: #162938;
   font-size: 1em;
   font-weight: 500;
