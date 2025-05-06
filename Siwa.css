@@ -11,7 +11,7 @@ body {
     text-align: center;
     font-family: garamond;
     color: #708238;
-    font-size: 23px;
+    font-size: 30px;
     border-radius: 20px;
     padding: 5px;
     margin: 50px;
@@ -63,10 +63,35 @@ body {
     color: beige;
     font-size: 1.2em;
     text-shadow: 2px 2px 4px black;
-    font-size: 23px;
+    font-size: 28px;
   }
+ul{
+    list-style: inside;/* إزالة النقاط من القائمة */
+    list-style-type:decimal ;
+
+} 
+li{
+    margin: 15px 0; /* مسافة بين العناصر */
+    padding: 5px; /* مسافة داخل العنصر */
+    border-radius: 10px; /* زوايا دائرية */
+    background-color: rgba(255, 217, 0, 0.16); /* لون الخلفية */
+    transition: background-color 0.3s ease; /* تأثير الانتقال */
+}
+li:hover {
+    background-color: rgba(255, 217, 0, 0.5); /* لون الخلفية عند التمرير */
+    color: black; /* لون النص عند التمرير */
+    border-radius: 10px; /* زوايا دائرية */
+    padding: 5px; /* مسافة داخل العنصر */
+    transition: background-color 0.3s ease; /* تأثير الانتقال */
+}
   
 .video-box {
-    flex-shrink: 0;
- }
-  
+
+    width: 1000px; /* عرض مناسب للفيديو */
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
