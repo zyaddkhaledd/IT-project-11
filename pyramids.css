@@ -78,11 +78,16 @@ hr{
   }
   
   .Khufu-img {
+    box-shadow:  5px 5px 15px black;
     width: 500px;
     border: 2px solid white;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .Khufu-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
   }
   
   .Khufu p {
