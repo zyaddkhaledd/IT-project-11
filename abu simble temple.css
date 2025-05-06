@@ -1,0 +1,35 @@
+.head{
+    background-color: #4B3B2A;
+    color: #FAF3E0;
+    text-align:center;
+    padding: 20px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    border-radius: 50px;
+}
+body{
+    background-color: #FAF3E0;
+    color: #333;
+}
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 30px;
+}
+.img img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+.content{
+    flex: 1 1 55%;
+}
+h2{
+    text-align: center;
+}
+.content p {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
