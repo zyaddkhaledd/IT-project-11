@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(53, 22, 22);
+}
+
+::selection {
+    background-color: rgb(128, 129, 116);
+}
+
+.logo {
+    background-color: beige;
+    text-align: center;
+    font-family: garamond;
+    color: #708238;
+    font-size: 23px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 50px;
+    border: #708238 solid 5px;
+}
+
+.image-text-container {
+    display: flex;
+    margin: 30px;
+    gap: 100px; /* مسافة بين الصورة والنص */
+}
+
+.siwa-image {
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.siwa-image:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+}
+.siwa-description {
+    color: beige;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px black;
+    max-width: 500px;
+
+}
+.Activitie_h1 {
+    color:#708238 ;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: beige;
+    width: 600px;
+    border-radius: 30px;
+}
+.activities-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap; /* لو الشاشة صغيرة يخليهم تحت بعض */
+  }
+  
+.activity-list {
+    color: beige;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px black;
+    font-size: 23px;
+  }
+  
+.video-box {
+    flex-shrink: 0;
+ }
+  
