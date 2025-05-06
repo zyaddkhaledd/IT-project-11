@@ -1,8 +1,6 @@
 body {
     background-color: rgb(53, 22, 22);
-    display:flex;
-    align-items: center; 
-    
+    display:flex; 
 }
 
 ::selection {
@@ -69,6 +67,7 @@ body {
     font-size: 1.2em;
     text-shadow: 2px 2px 4px black;
     font-size: 28px;
+    line-height: 1.5; 
   }
 ul{
     list-style: inside;/* إزالة النقاط من القائمة */
@@ -78,9 +77,10 @@ ul{
 li{
     margin: 15px 0; /* مسافة بين العناصر */
     padding: 5px; /* مسافة داخل العنصر */
-    border-radius: 10px; /* زوايا دائرية */
+    border-radius: 10px;
     background-color: rgba(255, 217, 0, 0.16); /* لون الخلفية */
     transition: background-color 0.3s ease; /* تأثير الانتقال */
+    
 }
 li:hover {
     background-color: rgba(255, 217, 0, 0.5); /* لون الخلفية عند التمرير */
@@ -101,29 +101,5 @@ li:hover {
     border-radius: 15px;
     
 }
-.map-section {
-    text-align: right;
-    margin-top: 50px;
-  }
-  
-  .map-title {
-    color: #708238;
-    font-size: 40px;
-    margin-bottom: 20px;
-    background-color: beige;
-    padding-right: 45px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 500px; 
-    translate: 1000px -10px;
-    border-radius: 20px;
 
-  }
-  
-  .map-container iframe {
-    border-radius: 15px;
-    max-width: 90%;
-    border: #708238 solid 5px;
-    
-  }
   
