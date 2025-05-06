@@ -30,3 +30,66 @@ body{
     color: beige;    
     text-shadow: 2px 2px 4px black;
 }
+table{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: beige;
+    border-spacing: 10px;
+    color: rgb(53, 22, 22);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-spacing: 0px;
+}
+th{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(53, 22, 22);
+    color: beige;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: beige;
+    color: rgb(53, 22, 22);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+hr{
+    border: 3px solid beige;
+    width: 100%;
+    margin: 20px;
+}
+.images_row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .Khufu {
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .Khufu-img {
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .Khufu p {
+    color: beige;
+    margin: 15px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+  }
+  
