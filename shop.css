@@ -2,7 +2,7 @@ body{
    background-image: url('shop/Background.jpg');
    font-family: 'Raleway', sans-serif;
 }
-:selection {
+::selection {
     background-color: #d4af37;
     color: #3d3d3d;
 }
