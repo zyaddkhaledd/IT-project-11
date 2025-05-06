@@ -1,20 +1,21 @@
 body{
-    background-color: rgb(53, 75, 79);
+background-color: #664431;
+}
+
+::selection{
+    background-color: rgb(237, 229, 222);
     
 }
-::selection{
-    background-color: rgb(63, 46, 46);
-}
 .head{
-    background-color: rgb(54, 41, 41);
+    background-color: #B08c7c;
     text-align: center;
     font-family: garamond;
     color: rgb(243, 237, 237);
     font-size: 1.5em;
     border-radius: 5px;
     padding: 3px;
-    margin: 100px;
-}
+    margin: 0px;
+    }
 
 .sec{
     display: flex;
@@ -30,5 +31,4 @@ img{
     border: 2px solid rgb(112, 104, 92);
     border-radius: 10px;
     height: auto;
-
-}
+   }
