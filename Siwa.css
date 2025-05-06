@@ -1,5 +1,6 @@
 body {
     background-color: rgb(53, 22, 22);
+    display: flex;
 }
 
 ::selection {
@@ -112,7 +113,7 @@ li:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 500px; 
-    translate: 1050px -10px;
+    translate: 1000px -10px;
     border-radius: 20px;
 
   }
