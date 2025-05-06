@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(53, 75, 79);
+    
+}
+::selection{
+    background-color: rgb(63, 46, 46);
+}
+.head{
+    background-color: rgb(54, 41, 41);
+    text-align: center;
+    font-family: garamond;
+    color: rgb(243, 237, 237);
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 100px;
+}
+
+.sec{
+    display: flex;
+}
+div>p{
+    color: rgb(196, 196, 178);
+    margin: 15px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgb(129, 121, 121);
+}
+img{
+    width: 350px;
+    border: 2px solid rgb(112, 104, 92);
+    border-radius: 10px;
+    height: auto;
+
+}
