@@ -1,16 +1,16 @@
 body{
-background-color: #664431;
+background-color: rgb(53, 22, 22);
 }
 
 ::selection{
-    background-color: rgb(237, 229, 222);
+    background-color: #11120D;
     
 }
 .head{
-    background-color: #B08c7c;
+    background-color:#F2F1ED;
     text-align: center;
     font-family: garamond;
-    color: rgb(243, 237, 237);
+    color: #11120D;
     font-size: 1.5em;
     border-radius: 5px;
     padding: 3px;
@@ -32,3 +32,9 @@ img{
     border-radius: 10px;
     height: auto;
    }
+ h2 {
+    color: #d3d3d3; 
+}
+ h2 {
+    color: #d3d3d3; 
+}
