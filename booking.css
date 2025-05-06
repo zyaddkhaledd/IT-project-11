@@ -123,4 +123,5 @@ ul{
     display: flex;
     align-items: center;
     gap: 10px;
+    transform: translate(-710px,-60px);
 }
