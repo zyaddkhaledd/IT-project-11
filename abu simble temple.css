@@ -54,3 +54,14 @@ img:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
 }
+.ramses{
+    background-color:#4B3B2A;
+    border-radius: 50px;
+    border: 3px solid;
+    transition: 0.3s;
+}
+.ramses:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
