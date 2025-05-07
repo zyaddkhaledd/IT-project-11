@@ -20,7 +20,7 @@ body{
     border-radius: 10px;
     margin-left: 15px;
     margin-right: 15px;
-
+  
     
 }
 .text1{
@@ -29,6 +29,7 @@ body{
     font-size: 2em;
     color: beige;    
     text-shadow: 2px 2px 4px black;
+    line-height: 70px;
 }
 table{
     width: 100%;
