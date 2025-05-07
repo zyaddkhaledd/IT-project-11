@@ -101,5 +101,38 @@ li:hover {
     border-radius: 15px;
     
 }
-
-  
+.video-box video:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+}
+.ending{
+    color: beige;
+    background-color: #1d220d;
+    font-size: 25px;
+    font-family: garamond;
+    text-align: center;
+    padding: 25px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    line-height: 1.6; 
+    margin-top: 30px;
+    font-weight: bold;
+}
+.ending-link{
+    color: #708238; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ending-link:hover {
+    color: black; 
+    background-color: beige;
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 25px;
+    border-radius: 25px;
+}
