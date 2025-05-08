@@ -11,10 +11,6 @@
 }
 
 body {
-  background-image: url(photo/1131w-oBRHX7H4AeY.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   overflow-x: hidden;
   font-family: sans-serif;
 }
@@ -65,6 +61,7 @@ h1 {
   font-size: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  color: #000000;
 }
 
 
@@ -193,4 +190,18 @@ input[type="reset"] {
   font-size: 30px;
   font-family: Cormorant Garamond ;
 
+}
+body::before {
+  content: "";
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("photo/Přišlo mi na koláž zajímaví téma Egypt🔶🔶🔶.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
 }
