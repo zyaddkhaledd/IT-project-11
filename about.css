@@ -23,7 +23,7 @@ body {
   top: 0;
   width: 100%;
   height: 55px;
-  background: linear-gradient(to right, #403d3d, #c2b280);
+  background: linear-gradient(to right, #E8D2B8,#91766E);
   padding: 10px 0;
   text-align: right;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #d4af37;
+  background-color: #4B2F23;
 }
 
 .header {
