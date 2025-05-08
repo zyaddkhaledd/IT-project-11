@@ -12,12 +12,13 @@
 
 body {
   background-image: url(photo/ab.jpg);
-  background-size: cover;      
-  background-repeat: no-repeat;  
-  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow-x: hidden;
   font-family: sans-serif;
 }
+
 .navbar {
   top: 0;
   width: 100%;
@@ -66,12 +67,6 @@ h1 {
   line-height: 1.6;
 }
 
-/* .wrapper {
-  position: relative;
-  left: 380px;
-  width: 1000px;
-  height: 100%;
-} */
 
 .wrapper .form-box {
 
@@ -184,9 +179,10 @@ input[type="reset"] {
   height: 5px;
   background-color: #beaa6c;
 }
-.end{
+
+.end {
   position: relative;
-  left: 0px;
+  left: 25px;
   top: 0px;
   bottom: 10px;
   width: 100%;
@@ -195,6 +191,6 @@ input[type="reset"] {
   text-align: center;
   padding: 30px;
   font-size: 30px;
-  font-family:serif;
+  font-family: serif;
 
 }

@@ -6,35 +6,38 @@ background-color: rgb(53, 22, 22);
     background-color: #11120D;
     
 }
-.head{
-    background-color:#F2F1ED;
+.head p{
+    background-color: rgb(248, 248, 248);
     text-align: center;
     font-family: garamond;
-    color: #11120D;
-    font-size: 1.5em;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 0px;
+    color: rgb(53, 22, 22);
+    font-size: 5em;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
     }
 
 .sec{
     display: flex;
 }
 div>p{
-    color: rgb(196, 196, 178);
+    color: rgb(255, 255, 255);
     margin: 15px;
     font-size: 2em;
-    text-shadow: 2px 2px 4px rgb(129, 121, 121);
 }
 img{
     width: 350px;
     border: 2px solid rgb(112, 104, 92);
-    border-radius: 10px;
+    border-radius: 20px;
     height: auto;
+    margin: auto;
+
    }
  h2 {
-    color: #d3d3d3; 
+    color:#c4975c; 
 }
- h2 {
-    color: #d3d3d3; 
+span{
+    color: #c4975c; 
+    font-size: 1em;
+    font-weight: bold;
 }
