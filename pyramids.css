@@ -78,6 +78,8 @@ hr{
     width: 100%;
     margin: 20px;
 }
+
+/* this is video section */
 video{
     width: 70%;
     border-radius: 10px;
@@ -104,6 +106,7 @@ video{
     text-shadow: 5px 5px 20px rgb(0, 0, 0);
     text-align: center;
 }
+/* the footer */
 footer {
     width: 100%;
     padding: 0;
