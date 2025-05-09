@@ -128,12 +128,13 @@ h1 {
 }
 
 .textarea-box textarea {
-  width: 100%;
-  height: 170px;
+  width: 90%;
+  height: 300px;
+  min-width: 90%;
+  min-height: 300px;
   max-width: 100%;
-  max-height: 190px;
+  max-height: 400px;  
   background-color: #ffffff;
-  font-size: 16px;
   outline: #439489;
   color: #162938;
   font-weight: 700;
@@ -141,14 +142,10 @@ h1 {
 }
 
 .feedback {
-  position: absolute;
-  top: 960px;
   color: #162938;
   font-size: 1em;
   font-weight: 500;
-  pointer-events: none;
-  transform: translateY(-50%);
-  transition: .5s;
+
 }
 
 input[type="submit"] {
