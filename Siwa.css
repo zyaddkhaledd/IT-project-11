@@ -29,7 +29,6 @@ body {
     width: 600px;
     height: 725px;
     border-radius: 15px;
-    border: #708238 solid 5px;
 }
 .siwa-image:hover {
     transform: scale(1.02); 
