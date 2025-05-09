@@ -123,7 +123,12 @@ li:hover {
     color: beige;
     font-size: 23px;
     text-shadow: 2px 2px 4px black;
-   
+    line-height: 1.5;
+}
+.visit-box:hover{
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+    
 }
 .ending{
     color: beige;
