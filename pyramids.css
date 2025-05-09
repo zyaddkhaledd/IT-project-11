@@ -4,30 +4,13 @@ body{
 ::selection{
     background-color: rgb(128, 129, 116);
 }
-.navbar{
-    display: flex;
-    border-radius: 10px;
-    justify-content: end;
-    background-color: rgb(245, 245, 220);
-    color: rgb(245, 245, 220);
-    font-size: 2em;
-    font-family: garamond;
-    padding: 10px;
-    margin: 0px;
-}
-.top{
-    text-decoration: none;
-    color: rgb(53, 22, 22);
-    padding: 10px;
-    margin: 10px;
-    font-family: garamond;
-}
 a:hover{
     color: rgb(245, 245, 220);
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
     transition: all 0.3s ease-out;
 }
+/* Main page title */
 .head{
     background-color: beige;
     text-align: center;
@@ -37,9 +20,12 @@ a:hover{
     border-radius: 20px;
     padding: 5px;
     margin: 50px;
+
 }
-.pyramids{
+/* Image and description section */
+.pyramids-photo{
     width: 400px;
+    height: 600px; ;
     border: 3px solid white;
     border-radius: 10px;
     margin-left: 15px;
@@ -47,14 +33,16 @@ a:hover{
   
     
 }
-.text1{
+
+.text1,.desc-1{
     display: flex;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
     color: beige;    
     text-shadow: 2px 2px 4px black;
     line-height: 70px;
 }
+/* table */
 table{
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
@@ -77,6 +65,7 @@ th{
     padding: 10px;
 }
 td{
+    line-height: 70px;
     border: 2px solid rgb(0, 0, 0);
     background-color: beige;
     color: rgb(53, 22, 22);
@@ -89,54 +78,79 @@ hr{
     width: 100%;
     margin: 20px;
 }
-.images_row {
+video{
+    width: 70%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px black;
+    border: 2px solid white;
+}
+.video-container{
+
     display: flex;
     justify-content: center;
-    gap: 10px;
-  }
-  
-  .Khufu {
-    width: fit-content;
-    padding: 5px;
+    align-items: center;
+    flex-direction: column;
     margin: 10px;
-    text-align: center;
-  }
-  
-  .Khufu-img {
-    box-shadow:  5px 5px 15px black;
-    width: 500px;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .Khufu-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-out;
-  }
-  
-  .Khufu p {
+}
+.video-text{  
+    font-family: garamond;
+    border: 5px solid beige;
+    padding: 10px;
+    border-radius: 15px;
     color: beige;
     margin: 15px;
     font-size: 2em;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 5px 5px 20px rgb(0, 0, 0);
     text-align: center;
-  }
-  .book{
-    width: 300px;
-    border: 3px solid white;
-    border-radius: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: beige;
-    color: rgb(53, 22, 22);
-    font-size: 1.5em;
+}
+footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+footer img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    border-radius: 0;
+}
+
+.footer-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.footer-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.visit-box {
+    background-color: transparent;
+    border: 1px solid beige;
+    padding: 15px 25px;
+    color: beige;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     text-align: center;
-    padding: 10px;
-    margin: 10px;
-    border-spacing: 0px;
-  }
-.button{
-    transform: scale(1.05);
-    transition: transform 0.3s ease-out;
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(10px); 
 }
