@@ -105,6 +105,26 @@ li:hover {
     transform: scale(1.02); 
     transition: transform 0.3s ease;
 }
+.Visitors{
+    background:url("./photo/ChatGPT\ Image\ May\ 9\,\ 2025\,\ 06_33_23\ PM.png") no-repeat;
+    width: 100%;
+    height: 330px;
+    border-radius: 20px;
+}
+.Visitors h2{
+    color: beige;
+    font-size: 33px;
+    text-shadow: 2px 2px 4px black;
+    translate: 15px 30px;
+}
+.visit-box{
+    translate: 0px 20px;
+    margin: 30px;
+    color: beige;
+    font-size: 23px;
+    text-shadow: 2px 2px 4px black;
+   
+}
 .ending{
     color: beige;
     background-color: #1d220d;
