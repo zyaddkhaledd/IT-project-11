@@ -311,7 +311,7 @@ footer {
 .footer-section {
     flex: 1;
     padding: 0 1rem;
-    margin-top: 0.5px;
+    margin-top: 1px;
 }
 
 .footer-section h3 {
@@ -345,22 +345,23 @@ footer {
 
 .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .social-icons a {
     color: black;
     font-size: 1.5rem;
-    transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.social-icons a :hover{
+    transform: scale(1.03);
+}
 .footer-bottom {
     text-align: center;
     padding: 1rem;
     border-top: 1px solid black;
     font-size: 0.9rem;
     color: #333;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     padding-top: 1rem;
     margin-top: 1rem;
 }
