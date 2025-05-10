@@ -1,3 +1,33 @@
+// JavaScript code for the login page and register
+
+// var errorEl = document.getElementById("error");
+// var form1 = document.getElementById("form1");
+// var email = document.getElementById("email");
+// var password = document.getElementById("password");
+// var name1 = document.getElementById("name1");
+// var name2 = document.getElementById("name2");
+
+// form1.addEventListener("submit", function (event) {
+//     let error = [];
+//     if (name1.value == "" || name1.value == null) {
+//     error.push("First name is required");     
+//     }
+// if (name2.value == "" || name2.value == null) {
+//     error.push("Last name is required");     
+//     }
+// if (error.length > 0) {
+// if (email.value == "" || email.value == null) {
+//    error.push("Email is required and Please include an '@' in the email address. ");     
+// }
+// if (password.value == "" || password.value == null) {
+//    error.push("password is required");     
+// }
+
+//     event.preventDefault();
+//     errorEl.innerHTML = error.join("<br>"); 
+// }
+
+// });
 
 // JavaScript code for the product page   
 
