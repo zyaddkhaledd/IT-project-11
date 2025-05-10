@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     color: rgb(53, 22, 22);
     padding: 10px 20px;
-    font-family: Garamond;
+
     border-radius: 30px;
 }
 
@@ -84,7 +84,7 @@ img:hover {
     padding: 20px;
 }
 a.booking{
-    border: solid;
+    
     text-decoration: none;
     color: rgb(53, 22, 22);
     background-color:rgb(245, 245, 220);
