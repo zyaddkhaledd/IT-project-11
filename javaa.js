@@ -1,7 +1,7 @@
 
-// JavaScript code for the product page   
+// JavaScript code for the places page
 
-   function goPage() {
+  function goPage() {
       var selectedPage = document.getElementById("page").value;
       if (selectedPage) {
         window.location.href = selectedPage;
@@ -16,7 +16,7 @@
 
 // javaScript code for the checkout page
 
-       document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
           const form1 = document.getElementById("form1");
           const form2 = document.getElementById("form2");
 
@@ -26,16 +26,61 @@
           });
       });
 
-    //   javaScript code for the book page
-       function goPage() {
-            var selectedPage = document.getElementById("page").value;
-            if (selectedPage) {
-              window.location.href = selectedPage;
-            }
-          }
-    
-// javaScript code for about page
+// JavaScript code for the contact page
+      
+function validateForm() {
+  let x = document.forms["myform"]["fname"].value;
+  let email = document.forms["myform"]["email"].value;
 
-      function send() {
-             alert("We have received your complaint successfully!");
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
   }
+  else if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  else if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  }
+  
+   else if (x.length < 3) {
+    alert("Name must be at least 3 characters long");
+    return false;
+  }
+  else if (x.length > 20) {
+    alert("Name must be less than 20 characters long");
+    return false;
+  } 
+
+}
+// JavaScript code for the login page
+      function validateForm2() {
+  let x = document.forms["myform"]["Password"].value;
+  let email = document.forms["myform"]["Email"].value;
+
+  if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }  
+  else if (x == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+  else if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  } 
+   else if (x.length< 8) {
+    alert("Password must be at least 8 characters long");
+    return false;
+  }
+  else if (x.length > 20) {
+    alert("Password must be less than 20 characters long");
+    return false;
+  } 
+ 
+  
+  return true;
+}
