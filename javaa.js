@@ -1,0 +1,23 @@
+// JavaScript code for the product page   
+   function goPage() {
+      var selectedPage = document.getElementById("page").value;
+      if (selectedPage) {
+        window.location.href = selectedPage;
+      }
+    }
+
+// JavaScript code for the shopping page
+
+    function addToCart() {
+    alert("Product added to cart!");
+  }
+
+       document.addEventListener("DOMContentLoaded", function () {
+          const form1 = document.getElementById("form1");
+          const form2 = document.getElementById("form2");
+
+          form1.addEventListener("submit", function (event) {
+              event.preventDefault();
+              form2.classList.add("show");
+          });
+      });
