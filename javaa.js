@@ -40,3 +40,22 @@
     return false;
   }
 }
+      function validateForm2() {
+  let x = document.forms["myform"]["Password"].value;
+  let email = document.forms["myform"]["Email"].value;
+
+  if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  } 
+  if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  } 
+   if (x> 8) {
+    alert("Password must be at least 8 characters long");
+    return false;
+  }
+
+  return true;
+}
