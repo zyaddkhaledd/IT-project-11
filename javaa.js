@@ -1,7 +1,7 @@
 
-// JavaScript code for the product page   
+// JavaScript code for the places page
 
-   function goPage() {
+  function goPage() {
       var selectedPage = document.getElementById("page").value;
       if (selectedPage) {
         window.location.href = selectedPage;
@@ -16,7 +16,7 @@
 
 // javaScript code for the checkout page
 
-       document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
           const form1 = document.getElementById("form1");
           const form2 = document.getElementById("form2");
 
@@ -26,7 +26,9 @@
           });
       });
 
-      function validateForm() {
+// JavaScript code for the contact page
+      
+function validateForm() {
   let x = document.forms["myform"]["fname"].value;
   let email = document.forms["myform"]["email"].value;
 
