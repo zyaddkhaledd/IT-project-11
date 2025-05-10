@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign.css"> 
     <link rel="icon" type="" href="photo/3qiVZs-LogoMakr.webp">
+    <script src="javaa.js"></script>
     <title>Log in</title>
 </head>
 <body>
@@ -17,20 +18,21 @@
         <h1>Welcome back!</h1>
 
     </header>
-    <form action="home.html" method="post" class="form">
+    <form action="home.html" method="post" class="form" name="myform" onsubmit="return validateForm2()">
         
                 <div class="sign1">
                     <label for=""id="email">Email</label>
-                    <input type="email" name="Email" id="email" required placeholder="@example.com" class="input" >
+                    <input type="text" name="Email" id="email" placeholder="@example.com" class="input" >
 
                     <label for=""id="password">Password</label>
-                    <input type="password" name="Password" id="password" required placeholder="Password" class="input" >
+                    <input type="password" name="Password" id="password" placeholder="Password" class="input" >
 
                 </div>
-                <input type="submit" value="Log in" name="submit" class="btn">
+                <button type="submit"  name="submit" class="btn">Log in</button>
        
 
     </form>
+      
     <div class="warning">
     <span>You don’t have an account?</span> <a href="signup.html" class="a1">Sign up</a>
 
