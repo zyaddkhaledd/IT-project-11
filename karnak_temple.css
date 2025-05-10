@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('Fonts/Ubuntu,Ubuntu_Sans/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 * {
     font-family: "Ubuntu", sans-serif;

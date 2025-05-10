@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -123,5 +123,5 @@ ul{
     display: flex;
     align-items: center;
     gap: 10px;
-    transform: translate(-710px,-60px);
+    transform: translate(-790px,-60px);
 }

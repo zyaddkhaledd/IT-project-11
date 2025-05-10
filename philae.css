@@ -1,21 +1,5 @@
 body{
-background-color: rgb(53, 22, 22);
-}
-.navbar{
-    margin: 5px 0px 30px 0px;
-
-}
-.list{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(231, 227, 223);
-    margin: 0px 0px 0px 20px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: .2s;
-}
-
-.list:hover{
-    color: rgb(142, 118, 118);
+background-color: rgb(63, 29, 29);
 }
 ::selection{
     background-color: #11120D;
@@ -56,3 +40,66 @@ span{
     font-size: 1em;
     font-weight: bold;
 }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1e1ad;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: #716767;
+}footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+footer img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    border-radius: 0;
+}
+
+.footer-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.footer-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.visit-box {
+    background-color: transparent;
+    border: 1px solid beige;
+    padding: 15px 25px;
+    color: beige;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+
+
