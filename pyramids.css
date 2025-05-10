@@ -197,3 +197,29 @@ footer img {
     border: 3px solid white;
 
 }
+.disc_sph {
+    font-size: 30px;
+    color: white;
+}
+.Sph {
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 3px solid blanchedalmond;
+
+}
+.Sphinx {
+    display: flex;
+    align-items:flex-start ;
+}
+.disc_tit {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: blanchedalmond;
+    display: block;
+
+}
