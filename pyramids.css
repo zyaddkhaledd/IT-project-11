@@ -34,7 +34,7 @@ a:hover{
     
 }
 
-.text1,.desc-1{
+.text1,.desc-1,.disc_sph{
     display: flex;
     font-weight: 700;
     font-size: 1.5em;
@@ -73,10 +73,22 @@ td{
     text-align: center;
     padding: 10px;
 }
+
+.kings {
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
 hr{
     border: 3px solid beige;
     width: 100%;
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 /* this is video section */
@@ -106,6 +118,7 @@ video{
     text-shadow: 5px 5px 20px rgb(0, 0, 0);
     text-align: center;
 }
+/* booking button */
 .booking{
     color: firebrick; 
     text-decoration: none; 
@@ -180,14 +193,7 @@ footer img {
     backdrop-filter: blur(3px); 
     -webkit-backdrop-filter: blur(10px); 
 }
-.kings {
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
-}
+
 .pic2 {
     margin: auto;
     display: block;
@@ -197,10 +203,7 @@ footer img {
     border: 3px solid white;
 
 }
-.disc_sph {
-    font-size: 30px;
-    color: white;
-}
+/* sphinx */
 .Sph {
     margin: auto;
     display: block;
@@ -216,10 +219,17 @@ footer img {
     align-items:flex-start ;
 }
 .disc_tit {
+    text-align: center;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: blanchedalmond;
     display: block;
 
+}
+.hr-sph{
+    border: 3px solid beige;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
