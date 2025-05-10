@@ -1,96 +1,132 @@
 * {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
-    font-size: 25px;
-    padding: 0;
-    margin: 0;
+    font-family: garamond;
 }
-
 body {
-    background-color: rgb(53, 22, 22);
-    color: beige;
-    font-family: 'Garamond', serif;
+     background-color: rgb(53, 22, 22);
 }
-
-.navbar {
-    display: flex;
-    gap: 60px;
-    border-radius: 50px;
-    justify-content: left;
-    background-color: rgb(245, 245, 220);
-    font-size: 30px;
-    padding: 10px 20px;
-    margin: 20px;
+::selection {
+    background-color:  rgb(199, 188, 203);
 }
-
-.top {
-    text-decoration: none;
-    color: rgb(53, 22, 22);
-    padding: 10px 20px;
-
-    border-radius: 30px;
-}
-
-a {
-    transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-    color: rgb(245, 245, 220);
-    background-color: rgb(0, 0, 0);
-
-}
-
-.head {
+.head{
     background-color: beige;
-    color: rgb(53, 22, 22);
     text-align: center;
-    padding: 20px;
-    font-family: 'Cinzel', serif;
-    font-size: 28px;
-    border-radius: 50px;
-    margin: 50px;
-}
-
-h2{
-    text-align: center;
-}
-img {
-    border: solid;
+    font-family: garamond;
+    color:#DAA520;
+    font-size: 35px;
     border-radius: 20px;
-    width: 500px;
-    height: auto;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-}
-img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-
-}
-.ramses{
-    border: solid;
-    border-radius: 20px;
-    background-color:rgb(245, 245, 220);
-    color: rgb(53, 22, 22);
+    padding: 5px;
     margin: 40px;
 }
-.content{
-    padding: 20px;
+.text0{
+    color: #DAA520 ;
+    font-size: 2em;
+    margin: 15px;
 }
-.booking{
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 20px;
+.container1{
+    display: flex;
+    margin: 30px;
+    gap: 100px;
 }
-a.booking{
-    
+.container1 img{
+    width: 680px;
+    height: 990px;
+    border-radius: 15px;
+    translate: 0 45px;
+}
+.container1 img:hover{
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+}
+.container1_text{
+    color: beige;
+    font-size: 27px;
+    text-shadow: 2px 2px 4px black;
+  
+    line-height: 1.8; 
+}
+.container1_text::first-line{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container2{  display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap; /* لو الشاشة صغيرة يخليهم تحت بعض */
+}
+.container2_text h2{
+    color: #DAA520 ;
+
+    font-size: 40px;
+}
+.container2_text p{
+    color: beige;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+    line-height: 2;
+    width: 600px;
+}
+.container2 video{
+    width: 1000px;
+    height: 400px;
+    border-radius: 15px;
+}
+.ending{
+     display: flex;
+    margin: 30px;
+    gap: 100px;
+}
+.ending_right h2{
+    color: #DAA520 ;
+    font-size: 40px;
+
+}
+.ending_right p{
+    color: beige;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+    line-height: 2;
+    width: 650px;
+}
+.ending_right a{
+    color: #DAA520 ;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+    line-height: 2;
+    width: 650px;
     text-decoration: none;
-    color: rgb(53, 22, 22);
-    background-color:rgb(245, 245, 220);
-    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
 }
-a.booking:hover{
-    color: rgb(245, 245, 220);
-    background-color: rgb(0, 0, 0);
+.ending_right a:hover{
+    background-color: #DAA520 ;
+    color: black;
+    transition: 0.3s;
+}
+.ending_left{
+    background: url(./photo/91BzzP6G1FL._AC_UF1000\,1000_QL80_.jpg) no-repeat ;
+    width: 700px;
+    
+}
+.ending_left h2{
+    color: #DAA520 ;
+    font-size: 40px;
+    text-align: left;
+    translate: 0px 325px;
+}
+.visit-box{
+    color: beige;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+    line-height: 2;
+    width: 650px;
+    translate: 20px 350px;
+    line-height: 2;
+}
+.visit-box:hover{
+    transform: scale(1.02); 
+    transition: transform 0.3s ease;
+    
 }
