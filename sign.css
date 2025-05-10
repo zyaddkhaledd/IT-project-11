@@ -1,5 +1,5 @@
 body {
-    background:url("./photo/pexels-meum-mare-204165854-17004827.jpg") ; 
+    background:url("photo/culture.jpg") ; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body {
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color: #bfa54d; 
+    color: #f1d166; 
     padding: 20px;
     text-align: center;
     text-shadow:5px 5px 5px rgba(105, 96, 42, 0.667);
@@ -28,17 +28,17 @@ body {
 }
 .link{
     text-decoration: none;
-    color:  #36342b;
+    color:  #363322;
     font-size: 25px;
     padding: 5px;
     padding-right: 10px;
     border-radius: 10px;
-    border: 5px double #d4af37;
+    border: 5px double  #f1d166;
     margin-left: 20px;
     margin-top: 20px;
 
     display: inline;
-    background-color: #6b675d;
+    background-color:#e9d38bA6;
  
 }
 
@@ -60,7 +60,7 @@ body {
     padding: 30px;
     border: 10px double #d4af37;
     border-radius: 5px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(9px);
     animation: floatForm 4s ease-in-out infinite alternate;
 
 }
@@ -105,7 +105,7 @@ body {
     background-color: unset;
     margin: 5px auto;
     padding: 10px;
-    border: 5px solid #615735;
+    border: 5px solid #e9d38b;
     border-radius: 10px;
     font-size: 20px;
    
@@ -143,7 +143,7 @@ body {
 }
 
 .warning {
-    color: #360505;
+    color:rgb(255, 228, 178) ;
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
@@ -179,7 +179,7 @@ body {
     width: 300px;
     height: 150px;
     font-size: 25px;
-    color: rgb(146, 119, 69);
+    color: rgb(255, 228, 178);
     text-align: start;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -188,13 +188,3 @@ body {
     translate: 10px -10px;
     
 } 
-.video_l{
-    width: 100%;
-    height: 100%;
-    max-width: 1000px;
-    max-height: 500px;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    translate: 0 -10px;
-}
