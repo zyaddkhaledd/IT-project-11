@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
           });
       });
 
-// JavaScript code for the contact page
+// JavaScript code for the about page
       
 function validateForm() {
   let x = document.forms["myform"]["fname"].value;
@@ -49,7 +49,7 @@ function validateForm() {
     alert("Name must be at least 3 characters long");
     return false;
   }
-  else if (x.length > 20) {
+  else if (x.length > 30) {
     alert("Name must be less than 20 characters long");
     return false;
   } 
@@ -76,11 +76,59 @@ function validateForm() {
     alert("Password must be at least 8 characters long");
     return false;
   }
-  else if (x.length > 20) {
+  else if (x.length > 30) {
     alert("Password must be less than 20 characters long");
     return false;
   } 
  
+  
+  return true;
+}
+// JavaScript code for the signup page
+      function validateForm3() {
+  let FirstName = document.forms["myform"]["FirstName"].value;
+  let email = document.forms["myform"]["Email"].value;
+  let lastName = document.forms["myform"]["Last Name"].value;
+  let Password = document.forms["myform"]["Password"].value;
+
+
+  if (FirstName== "") {
+    alert("First Name must be filled out");
+    return false;
+  }  
+  else if (FirstName.length < 3) {
+    alert("First Name must be at least 3 characters long");
+    return false;
+  }
+  
+  else if (lastName == "") {
+    alert("Last Name must be filled out");
+    return false;
+  }  
+  else if (lastName.length < 3) {
+    alert("Last Name must be at least 3 characters long");
+    return false;
+  }
+
+   else if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }  
+  else if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  } 
+
+  else if (Password == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+
+   
+  else if (Password.length < 8) {
+    alert("Password must be at least 8 characters long");
+    return false;
+  }
   
   return true;
 }
