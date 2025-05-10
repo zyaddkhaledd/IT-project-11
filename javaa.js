@@ -56,16 +56,17 @@
           });
       });
 
-    //   javaScript code for the book page
-       function goPage() {
-            var selectedPage = document.getElementById("page").value;
-            if (selectedPage) {
-              window.location.href = selectedPage;
-            }
-          }
-    
-// javaScript code for about page
+      function validateForm() {
+  let x = document.forms["myform"]["fname"].value;
+  let email = document.forms["myform"]["email"].value;
 
-      function send() {
-             alert("We have received your complaint successfully!");
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
   }
+
+  if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  }
+}
