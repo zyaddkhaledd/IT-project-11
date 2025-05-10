@@ -36,12 +36,26 @@ function validateForm() {
     alert("Name must be filled out");
     return false;
   }
-
-  if (email.indexOf("@") == -1) {
+  else if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  else if (email.indexOf("@") == -1) {
     alert("Email must contain @");
     return false;
   }
+  
+   else if (x.length < 3) {
+    alert("Name must be at least 3 characters long");
+    return false;
+  }
+  else if (x.length > 20) {
+    alert("Name must be less than 20 characters long");
+    return false;
+  } 
+
 }
+// JavaScript code for the login page
       function validateForm2() {
   let x = document.forms["myform"]["Password"].value;
   let email = document.forms["myform"]["Email"].value;
@@ -49,15 +63,24 @@ function validateForm() {
   if (email == "") {
     alert("Email must be filled out");
     return false;
-  } 
-  if (email.indexOf("@") == -1) {
+  }  
+  else if (x == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+  else if (email.indexOf("@") == -1) {
     alert("Email must contain @");
     return false;
   } 
-   if (x> 8) {
+   else if (x.length< 8) {
     alert("Password must be at least 8 characters long");
     return false;
   }
-
+  else if (x.length > 20) {
+    alert("Password must be less than 20 characters long");
+    return false;
+  } 
+ 
+  
   return true;
 }
