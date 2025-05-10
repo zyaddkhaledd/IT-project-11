@@ -21,3 +21,22 @@
               form2.classList.add("show");
           });
       });
+
+// JavaScript code for the about page
+
+      function validateForm() {
+  let x = document.forms["myform"]["fname"].value;
+  let email = document.forms["myform"]["email"].value;
+  
+
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+
+  if (email.indexOf("@") == -1) {
+    alert("Email must contain @");
+    return false;
+  }
+  return true;
+}

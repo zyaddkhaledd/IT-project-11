@@ -6,7 +6,7 @@
   <title>About Us</title>
   <link rel="icon" href="https://files.logomakr.com/3qiVZs-LogoMakr.png">
   <link rel="stylesheet" href="about.css" />
-   <script scr="javaa.js"></script>
+   <script src="javaa.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
@@ -50,30 +50,30 @@
 
   <div class="wrapper">
     <div class="form-box">
-      <form action="#">
+      <form action="#" name="myform"onsubmit="return validateForm()">
         <h2 class="title">Feedback & Complaints</h2>
 
         <div class="input-box">
           <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-          <input type="text" name="user" required />
+          <input type="text" name="fname" placeholder=""/>
           <label>Name</label>
         </div>
 
         <div class="input-box">
           <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-          <input type="email" name="mail" required />
+          <input type="text" name="email" placeholder=""/>
           <label>Email</label>
         </div>
         <div class="textarea-box">
           <label class="feedback">Feedback & Complaints</label>
-          <textarea namme="Message" placeholder="write feedback / complaints..." required></textarea>
+          <textarea namme="Message" placeholder="write feedback / complaints..." ></textarea>
 
         </div>
         <div class="submit">
-          <input type="submit" value="Send" />
+          <button type="submit">Submit</button>
         </div>
         <div class="reset">
-          <input type="reset" value="Reset" />
+          <button type="reset">Reset</button>
         </div>
       </form>
     </div>
