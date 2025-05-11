@@ -106,12 +106,20 @@
                 <p>&copy; 2025 Egyscape. All rights reserved.</p>
             </div>
         </footer>
+        <!-- Audio-->
+<audio id="music" loop>
+  <source src="Audio/Ancient Egyptian Music – The Nile River.mp3" type="audio/mpeg">
+</audio>
 
+<script>
+  document.body.addEventListener('click', () => {
+    document.getElementById('music').play();
+  }, { once: true });
+</script>
  <!-- AOS JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init();
-</script>
-       
+</script>    
 </body>
 </html>
