@@ -4,79 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap">
 
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <script src="javaa.js"></script>
     <link rel="stylesheet" href="Home.css"> 
-    <title>Egyscape</title>
+    <title>Egyscape - Discover Ancient Egypt</title>
     <link rel="icon" href="photo/3qiVZs-LogoMakr.webp">
 </head>
 
 
 <body>
-        <!-- this is the Navbar -->
-        <header class="head">
-            <div class="logo">
-                <img src="photo/3qiVZs-LogoMakr.webp" alt="egyscap">
-                <span class="logo-title">EGYSCAPE</span>
-            </div>
-            <ul>
-                <li><a href="#content_home_page_2" class="link">Discover our service 🔍</a></li>
-                <li><a href="login.html" class="link">Log in 👤</a></li>
-                <li><a href="about.html" class="link">About Us 💬 </a></li>
-            </ul>
-        </header>
-        <!-- this is the main -->
-         <!-- دي كلمة welcom to egypt -->
-        <h3 class="h11">WELCOME TO EGYPT</h3>
-        <!-- this is vedio and img and paragraph-->
-        <div class="video_container">
-            <video   loop autoplay muted  src="VIDEO/videoplayback.mp4"></video>
+    <!-- this is the Navbar -->
+    <header class="head">
+        <div class="logo">
+            <img src="photo/3qiVZs-LogoMakr.webp" alt="egyscap">
+            <span class="logo-title">EGYSCAPE</span>
         </div>
+        <ul>
+            <li><a href="#content_home_page_2" class="link">Discover our service 🔍</a></li>
+            <li><a href="login.html" class="link">Log in 👤</a></li>
+            <li><a href="about.html" class="link">About Us 💬 </a></li>
+        </ul>
+    </header>
+        <!-- this is vedio & welcom message -->
+        <div class="video_container">
+            <video   loop autoplay muted playsinline src="VIDEO/videoplayback.mp4"></video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content"> 
+            <h3 class="h11" data-aos="fade-down" data-aos-duration="800">WELCOME TO EGYPT</h3>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    Where ancient wonders meet modern adventures
+            </p>
+            <a href="#egypt-section" class="cta-button" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                Explore Now <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+      <!-- this is egypt descreption -->
     <main>
-        <section class="content_home_page_1">
-            <div class="img_container">
-                <img src="./photo/d34c9c7f-dad1-4ea9-91c9-b32687ad24aa.png" alt="Egypt" width="400" >
+        <section class="egypt-section" id="egypt-section">
+            <div class="container">
+                <div class="egypt-content" data-aos="fade-right">
+                    <h2>Ancient Egypt</h2>
+                    <p>Egypt is considered one of the oldest civilizations in history, emerging along the banks of the Nile River more than seven thousand years ago. The ancient Egyptians left behind a magnificent legacy of monuments, such as the pyramids, temples, and royal tombs, which continue to amaze the world to this day.</p>
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <i class="fas fa-monument"></i>
+                            <h4>120+ Pyramids</h4>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-history"></i>
+                            <h4>7000+ Years</h4>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-landmark"></i>
+                            <h4>30 Dynasties</h4>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-scroll"></i>
+                            <h4>Hieroglyphs</h4>
+                        </div>
+                    </div>
+                    <a href="places.html" class="cta-button-outline">
+                        Learn More <i class="fas fa-arrow-right" ></i>
+                    </a>
+                </div>
+                <div class="egypt-image" data-aos="fade-left">
+                    <img src="./photo/d34c9c7f-dad1-4ea9-91c9-b32687ad24aa.png" alt="Ancient Egypt">
+                </div>
             </div>
-               <div class="pragh">
-                   <h3 data-aos="zoom-in" data-aos-duration="800">EGYPT</h3>
-                  <p data-aos="zoom-in" data-aos-duration="800">
-                    Egypt is considered one of the oldest 
-                    civilizations in history, emerging along the banks 
-                    of the Nile River more than seven thousand years ago. 
-                    The ancient Egyptians left behind a magnificent legacy of monuments, such as the pyramids, temples, and royal tombs,
-                    which continue to amaze the world to this day. These monuments reflect their brilliance 
-                    in engineering, art, and science.
-                  </p>
-               </div> 
         </section>
+
+
         <!-- this is Selection boxes -->
         <section class="content_home_page_2" id="content_home_page_2">
-            <div id="box-1" class="info-box" data-aos="fade-right" >
-                <img  src="./photo/1-1670034.webp" alt="">
-                <p>
-                    The trip booking page offers visitors the chance to explore Egypt’s most stunning historical sites through carefully organized tours. We provide guided trips to places like the Pyramids, the Egyptian Museum, and ancient temples, with expert guides who share history in an engaging way. Our goal is to make booking easy and every journey a memorable adventure full of knowledge and discovery. Booking is simple, and the experience is unforgettable.
-                </p>
-                <a class="discover" href="./booking.html">Discover Now</a>
+            <div class="section-header" data-aos="fade-up">
+               <h2>Discover Our Services</h2>
+               <p>Explore the best of ancient Egypt with our curated experiences</p>
             </div>
-            <div id="box-2" class="info-box" data-aos="fade-up" >
-                <img src="./photo/WhatsApp Image 2025-04-20 at 17.03.45_f6259ea0.jpg" alt="">
-                <p>
-                    Our shop page presents a unique collection of products inspired by ancient Egyptian civilization, such as statues, jewelry, and artistic pieces that reflect the charm of history. Our goal is to bring the spirit of authenticity and beauty of old Egypt to everyone, making visitors feel like they’re holding a piece of history. Each item is crafted with great care and high quality to satisfy every lover of Egyptian heritage and art.
-                </p>
-                <a class="discover" href="./shopping.html">Discover Now</a>
-            </div>
-            <div id="box-3" class="info-box" data-aos="fade-left" >
-                <img src="./photo/IMG-20250419-WA0190.jpg" alt="">
-                <p>
-                    Egypt is rich in breathtaking tourist destinations, from the grandeur of the pharaohs’ monuments to the beauty of the Red Sea and the charm of the Nile. Visitors can explore the Pyramids, the Valley of the Kings, ancient temples, or enjoy diving in Dahab and Nile cruises in Luxor and Aswan. These places aren’t just history—they’re living stories and culture that leave a mark on the soul. Every corner of Egypt tells a tale.
-                </p>
-                <a class="discover" href="./places.html">Discover Now</a>
+            <div class="services-grid">
+
+                <div id="box-1" class="info-box" data-aos="fade-right" >
+                    <img  src="./photo/1-1670034.webp" alt="">
+                    <p>
+                        The trip booking page offers visitors the chance to explore Egypt’s most stunning historical sites through carefully organized tours. We provide guided trips to places like the Pyramids, the Egyptian Museum, and ancient temples, with expert guides who share history in an engaging way. Our goal is to make booking easy and every journey a memorable adventure full of knowledge and discovery. Booking is simple, and the experience is unforgettable.
+                    </p>
+                    <a class="discover" href="./booking.html">Book Now</a>
+                </div>
+                <div id="box-2" class="info-box" data-aos="fade-up" >
+                    <img src="./photo/WhatsApp Image 2025-04-20 at 17.03.45_f6259ea0.jpg" alt="">
+                    <p>
+                        Our shop page presents a unique collection of products inspired by ancient Egyptian civilization, such as statues, jewelry, and artistic pieces that reflect the charm of history. Our goal is to bring the spirit of authenticity and beauty of old Egypt to everyone, making visitors feel like they’re holding a piece of history. Each item is crafted with great care and high quality to satisfy every lover of Egyptian heritage and art.
+                    </p>
+                    <a class="discover" href="./shopping.html">Shop Now</a>
+                </div>
+                <div id="box-3" class="info-box" data-aos="fade-left" >
+                    <img src="./photo/IMG-20250419-WA0190.jpg" alt="">
+                    <p>
+                        Egypt is rich in breathtaking tourist destinations, from the grandeur of the pharaohs’ monuments to the beauty of the Red Sea and the charm of the Nile. Visitors can explore the Pyramids, the Valley of the Kings, ancient temples, or enjoy diving in Dahab and Nile cruises in Luxor and Aswan. These places aren’t just history—they’re living stories and culture that leave a mark on the soul. Every corner of Egypt tells a tale.
+                    </p>
+                    <a class="discover" href="./places.html">Discover Now</a>
+                </div>
             </div>
         </section>    
     </main>
+
+
+        <!-- this is user reacction -->
+
+        <section class="testimonials-section">
+        <div class="section-header" data-aos="fade-up">
+            <h2>What Our Visitors Say</h2>
+            <p>Hear from travelers who experienced Egypt with us</p>
+        </div>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The tour guides were incredibly knowledgeable and made ancient history come alive. Best trip ever!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="photo/download.jpg" alt="Sarah Johnson">
+                    <h4>Elon Mask</h4>
+                    <span>USA</span>
+                </div>
+            </div>
+        </div>
+<!-- Newsletter Section  -->
+    <div class="n-f">
+        <section class="newsletter-section">
+            <div class="newsletter-container" data-aos="fade-up">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest updates and special offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
 
         <!-- this is footer -->
 
@@ -106,16 +183,8 @@
                 <p>&copy; 2025 Egyscape. All rights reserved.</p>
             </div>
         </footer>
-        <!-- Audio-->
-<audio id="music" loop>
-  <source src="Audio/Ancient Egyptian Music – The Nile River.mp3" type="audio/mpeg">
-</audio>
+    </div>    
 
-<script>
-  document.body.addEventListener('click', () => {
-    document.getElementById('music').play();
-  }, { once: true });
-</script>
  <!-- AOS JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
@@ -123,3 +192,5 @@
 </script>    
 </body>
 </html>
+
+

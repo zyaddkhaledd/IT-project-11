@@ -112,122 +112,205 @@ ul {
     }
 }
 
-/* welcome to egypt */
+/* welcome to egypt & vedio */
 
+.video_container{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+video{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+}
+.hero-content {
+    text-align: center;
+    color: var(--white);
+    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+}
 .h11{
     color:black;
     display: flex;
     justify-content: center;
-    font-size: 80px;
+    font-size: 4.5rem;
     font-family: 'Times New Roman', Times, serif;
     text-shadow:5px 2px 5px rgba(255, 217, 0, 0.667);
     position: relative;
     overflow: hidden;
     margin-top: 130px;
+    margin-bottom: 1.5rem ;
 }
-    
-.h11::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 217, 0, 0.203), transparent);
-    animation: reflect 3s infinite linear 3s;
-    backdrop-filter: blur(5px); 
-    -webkit-backdrop-filter: blur(5px);
-}
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: goldenrod;
+}    
 
-@keyframes reflect {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left:  200%;
-    }
+.cta-button {
+    background-color: goldenrod;
+    color: black;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2px 2px 2px 2px;
 }
 
-/* دا الكود بتاع الصوره والفيديو والبراجراف */
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+}
 
-.content_home_page_1 {
+/* this is egypt descreption  */
+
+.egypt-section {
+    padding: 6rem 0;
+    margin-top: 400px;
+}
+
+.egypt-section .container {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center; 
-    padding: 30px;
-    gap: 40px; 
-    flex-grow: 1; 
-}
-
-
- .img_container img {
-    width: 100%;
-    animation: head 2s ease-in-out;
-    height: 520px;
-    margin-top: 100px;
-    max-width: 100%;
-    min-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0px 8px 16px rgba(255, 217, 0, 0.792);
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-}
-
-.img_container img:hover {
-    transform: scale(1.03); 
-    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.6);
-}
-.content_home_page_1  .pragh h3{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:bolder;
-    font-size:70px;
-    color: gold;
-}
-.content_home_page_1  .pragh {
-    width: auto;
-    margin-top: 50px;
-    max-width: 500px; 
-    color: rgba(255, 217, 0, 0.74);
-    text-align: left;
-    direction: ltr;
-    font-weight:normal;
-    font-size: 20px; 
-    line-height: 1.4; 
-    animation: head 2s ease-in-out;
-    padding: 20px;
-    scale: 1.3;
-}
-
-.video_container{
-    display: flex;
-    justify-content:center;
     align-items: center;
-    margin-top: 100px;
-    width: 100%;
-    max-width: 100%;
-    height: 600px;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
-video{
-    width: 100%;
-    height:100%;
-    object-fit: contain;
+    gap: 4rem;
 }
 
-/* دا كود بوكسات الإختيار */
+.egypt-content {
+    flex: 1;
+}
+
+.egypt-content h2 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: goldenrod;
+}
+
+.egypt-content p {
+    margin-bottom: 2rem;
+    color: rgba(218, 165, 32, 0.785);
+}
+
+.facts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.fact-item {
+    background-color: rgba(218, 165, 32, 0.89);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.fact-item:hover {
+    transform: translateY(-5px);
+    background-color: rgba(218, 165, 32, 0.89);
+    box-shadow: 0px 8px 16px rgba(255, 217, 0, 0.53);
+}
+
+.fact-item i {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.fact-item h4 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+
+.egypt-image {
+    flex: 1;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.egypt-image img {
+    width: 600px;
+    height: 500px;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.egypt-image img:hover  {
+    transform: scale(1.05);
+}
+
+
+.cta-button-outline {
+    font-size: 25px;
+    background-color: transparent;
+    color: goldenrod;
+    border: 2px solid var(--primary-color);
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+
+.cta-button-outline:hover {
+    color:rgba(218, 165, 32, 0.619);
+    gap: 0.8rem;
+    transform: scale(1.3);
+}
+
+
+
+
+
+/* this is card selection */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: goldenrod;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: rgba(218, 165, 32, 0.74);
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
 
 .content_home_page_2 {
-    width: 100%;
+    padding: 6rem 0;
+}
+
+.services-grid {
     display: flex;
-    flex-direction: row; 
-    justify-content:space-between; 
-    justify-content: start;
-    align-items: center; 
-    margin-top: 100px;
-    padding: 30px;
-    gap: 70px; 
-    flex-grow: 1; 
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .content_home_page_2 .info-box{
@@ -258,6 +341,7 @@ video{
     border-radius: 20px;
     padding: 10px;
 }
+
 .content_home_page_2 .info-box p{
     width: auto;
     direction: ltr;  
@@ -275,31 +359,176 @@ video{
     border-radius: 8px;
     padding: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    margin-left: 150px;
+    margin-left: 167px;
 }
 .discover:hover{
     color: black;
     background-color:goldenrod;
     text-decoration: none; 
 }
-#box-1 img{
-    height: 330px;
+
+
+/* this is user reaction */
+
+
+.testimonials-section {
+    background-color: var(--light-color);
+    margin-bottom: 0px;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: goldenrod;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow:0px 8px 16px rgba(255, 217, 0, 0.354);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow:0px 8px 16px rgba(255, 217, 0, 0.578) ;
+}
+
+.rating {
+    color: gold;
+    margin-bottom: 1rem;
+}
+
+.testimonial-content p {
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.testimonial-content p::before,
+.testimonial-content p::after {
+    content: '"';
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    opacity: 0.5;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-author h4 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+
+.testimonial-author span {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    display: block;
 }
 
 
-/* Footer Styles */
+/* this is newsletter & footer */
+
+
+
+
+.n-f{
+    background-color: goldenrod ;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-section {
+    margin-top: 150px;
+    padding: 4rem 0;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.newsletter-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.newsletter-container p {
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.newsletter-form {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    color: goldenrod;
+}
+
+.newsletter-form button {
+    padding: 12px 25px;
+    background-color:black ;
+    color: goldenrod;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.newsletter-form button:hover {
+    background-color: rgba(0, 0, 0, 0.731);
+}
+
+
+
 footer {
     width: 100%;
-    height: 220px;
+    height: 100%;
     background-color: goldenrod;
     color: black;
     padding: 2rem 5% 0;
     margin-top: 200px;
+    margin-bottom: 0px;
     border-radius: 5px;
 }
 
 .footer-content {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items: flex-start;
     max-width: 1200px;
@@ -312,10 +541,12 @@ footer {
     flex: 1;
     padding: 0 1rem;
     margin-top: 1px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-section h3 {
-    font-size: 24px;
+    font-size: 25px;
     color: black;
     font-weight: bold;
     border-bottom: 1px solid black;
@@ -324,6 +555,12 @@ footer {
     display: inline-block;
     width: fit-content;
 
+}
+
+.footer-section p {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-section ul {
@@ -335,6 +572,7 @@ footer {
 
 .footer-section ul a {
     margin-bottom: 0.5rem;
+    font-size: 15px;
     color: black;
     text-decoration: none;
 }
@@ -354,7 +592,7 @@ footer {
 }
 
 .social-icons a :hover{
-    transform: scale(1.03);
+    transform: scale(1.3);
 }
 .footer-bottom {
     text-align: center;
@@ -364,5 +602,5 @@ footer {
     color: #333;
     padding-top: 1rem;
     margin-top: 1rem;
+    background-color: goldenrod;
 }
-

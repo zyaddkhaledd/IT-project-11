@@ -15,30 +15,39 @@
     background-color: #b89626e1;
     color: #3d3d3d;
 }
-body{
-    background-color: #f6e9d7;
-    color: #2f1f13;
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #000000, #b8860b,#000000);
+  background-size: 200% 200%;
+  animation: gradientMove 10s ease infinite;
 }
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 div.header{
-    background: linear-gradient(to right, #e0bc43, #f0bf43);
-    color: #2f1f13;
+    color:rgb(21, 21, 47) ;
     text-align: center;
     padding: 20px;
 }
-a{
-    text-decoration: none;
-    text-align: center;
-    color: white;
-}
+
 div.content-booking-page{
     display: flex;
     align-items: center;
-    background-color: #FFFDF6;
+    background-color:rgba(21, 21, 47, 0.874) ;
+    backdrop-filter: blur(40px); 
+    -webkit-backdrop-filter: blur(40px);  
     padding: 20px;
     margin: 10px auto;
+    margin-bottom: 130px;
     border-radius: 20px;
     width: 80%;
-    box-shadow: 0 8px 30px rgba(204, 173, 96, 0.2);
+    box-shadow: 0 8px 30px rgba(218, 165, 32, 0.838);
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -58,7 +67,7 @@ div.content-booking-page{
     }
 }
 img{
-    background-color: white;
+    background-color: rgba(218, 165, 32, 0.838);
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     width: 200px;
@@ -66,18 +75,19 @@ img{
     text-align: center;
     width: 100%;
     height: 150px;
-    transition: 0.3s;
+    transition: transform 0.5s ease-in-out ,background-color 0.5s ease ;
 }
 img:hover{
+    background-color: #000000;
     transform: scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
 }
 div.content-booking-page button{
     margin-top: 10px;
     padding: 10px 0px;
-    background-color: rgb(21, 21, 47);
-    color: white;
+    color: rgb(21, 21, 47);
+    background-color: rgba(218, 165, 32, 0.838);
     border: none;
     border-radius: 20px;
     font-weight: bold;
@@ -89,38 +99,118 @@ div.content-booking-page button:hover{
     transform: translateY(-3px);
 }
 p{
+    color: rgba(218, 165, 32, 0.838);
     font-size: larger;
     font-weight: bolder;
     text-align: center;
 }
 .stars{
     text-align: right;
+    color: rgba(218, 165, 32, 0.838);
 }
 ul{
-    width: 60%;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-evenly;
+    direction: ltr; 
     list-style: none;
-    direction: ltr;
+    display: flex;
+    gap: 10px; 
+    margin-right: 50px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .links {
-    color: #2f1f13;
-    transition: color 0.3s ease-in-out;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: rgb(21, 21, 47);
+    color: goldenrod;
+    border-radius: 8px; 
+    border: 3px rgb(30, 19, 4) double; 
+    text-decoration: none;
+    font-size: 15px;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease, color 0.5s ease;
 }
 .links:hover {
-    color: #81483b;
+    transform: scale(1.03);
+    color:rgb(21, 21, 47) ;
+    background-color:transparent;
+    border: 3px black double;
+    text-decoration: none; 
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .search {
-    border: #000000 double 6px;
+    border: rgba(0, 0, 0, 0.3) double 6px;
     border-radius: 10px;
     width: 600px;
     display: flex;
     padding: 10px;
-    margin: 10px 0 10px auto;
     font-weight: 900;
     font-size: 20px;
-    
     gap: 10px;
     direction: ltr;
+}
+#page{
+    background-color: transparent;
+}
+option{
+    background-color: rgb(21, 21, 47);
+    color: aliceblue;
+}
+button{
+    background-color: transparent;
+    transition: background-color 0.5 ease , color 0.5 ease;
+}
+button:hover{
+    background-color: rgb(21, 21, 47);
+    color: #b8860b;
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+
+footer h3{
+    text-align: center;
+    font-size: 50px;
+    color:goldenrod;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer-text {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(21, 21, 47); 
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.visit-box {
+    background-color: transparent;
+    border: 1px solid beige;
+    padding: 15px 25px;
+    color:rgba(218, 165, 32, 0.838);
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(10px); 
 }
