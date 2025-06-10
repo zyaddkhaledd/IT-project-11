@@ -549,6 +549,72 @@ video{
     box-shadow: 0px 0px 20px 10px black;
     transition: all 0.5s ease;
 }
+/* ABDO2*/
+.review-section {
+    background-color:rgb(129, 114, 94);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+}
+
+.review-section h2 {
+    color: #030303;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-family: inherit;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+.submit-btn {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+    font-family:garamond;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
 
 
 
