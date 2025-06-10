@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign.css"> 
     <link rel="icon" type="" href="photo/3qiVZs-LogoMakr.webp">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="javaa.js"></script>
     <title>Login</title>
 </head>
@@ -15,7 +16,7 @@
     <a href="about.html" class="link">About</a>
     <header class="header">
 
-        <h1>Welcome back!</h1>
+        <h1 data-aos="fade-down" data-aos-duration="800">Welcome back!</h1>
 
     </header>
     <form action="home.html" method="post" class="form" name="myform" onsubmit="return validateForm2()">
@@ -42,5 +43,9 @@
     <div class="message">
         <p> Your data is encrypted and securely stored,Your privacy is our top priority.⚠️</p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

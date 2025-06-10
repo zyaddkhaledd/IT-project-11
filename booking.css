@@ -107,6 +107,9 @@ p{
 .stars{
     text-align: right;
     color: rgba(218, 165, 32, 0.838);
+    font-size: 26px;
+    margin: 0px;
+    padding: 0px;
 }
 ul{
     direction: ltr; 
@@ -128,7 +131,7 @@ ul{
     border-radius: 8px; 
     border: 3px rgb(30, 19, 4) double; 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     transition: transform 0.5s ease-in-out, background-color 0.5s ease, color 0.5s ease;
 }
 .links:hover {
@@ -164,6 +167,7 @@ option{
 button{
     background-color: transparent;
     transition: background-color 0.5 ease , color 0.5 ease;
+    font-size: 16px;
 }
 button:hover{
     background-color: rgb(21, 21, 47);

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign.css"> 
+     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <title>Sign up</title>
     <link rel="icon" type="" href="photo/3qiVZs-LogoMakr.webp">
     <script src="javaa.js"></script>
@@ -17,7 +18,7 @@
 
     <header class="header">
 
-        <h1>Create an account</h1>
+        <h1 data-aos="fade-down" data-aos-duration="800">Create an account</h1>
 
     </header>
     <form action="home.html" method="post" class="form" name="myform" onsubmit="return validateForm3()">
@@ -37,6 +38,7 @@
 
             </div>
                 <button type="submit"  name="submit" class="btn">Sign up</button>
+                
 
 
     </form>
@@ -51,5 +53,9 @@
         
         <span>Your data is encrypted and securely stored,Your privacy is our top priority.⚠️</span>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
