@@ -1,5 +1,5 @@
 body {
-    background:url("photo/culture.jpg") ; 
+    background:url("photo/back\ login.jpg") ; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,10 +60,17 @@ body {
     padding: 30px;
     border: 10px double #d4af37;
     border-radius: 5px;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(5px);
     animation: floatForm 4s ease-in-out infinite alternate;
 
 }
+input::placeholder {
+  color: wheat;           /* اللون - خليه غامق */
+  font-weight: bold;     /* خليه عريض */
+  opacity: 1;            /* تأكد إن الشفافية 100% */
+  font-size: 19PX;
+}
+
 
 
 @keyframes floatForm {
