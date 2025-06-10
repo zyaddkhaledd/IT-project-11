@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="booking2.css">
+     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="javaa.js"></script>
   <link rel="icon" type="" href="photo/3qiVZs-LogoMakr.webp">
   <title>Reservation</title>
@@ -20,7 +21,7 @@
     </h1>
 
     <div class="formsContainer">
-        <form id="form1" class="form" method="get">
+        <form id="form1" class="form" method="get" data-aos="fade-left" data-aos-duration="800">
             <div class="field_2">
             <label for="name">Full name</label>
             <input id="name" type="text" class="field_1"  name="name" required placeholder="Enter your full name">
@@ -70,6 +71,9 @@
         </form>
     </div>
 
-  
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
