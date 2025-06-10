@@ -373,7 +373,7 @@ video{
 
 .testimonials-section {
     background-color: var(--light-color);
-    margin-bottom: 0px;
+    margin-bottom: 300px;
 }
 
 .testimonials-container {
@@ -440,6 +440,118 @@ video{
     color: var(--text-light);
     display: block;
 }
+/*abdullah*/
+.op1 {
+    display: flex;
+    align-items: center; /* علشان الكلام يكون في نفس مستوى الصورة عموديًا */
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Opinions p{
+      font-family: garamond;
+      font-size: 25px;
+}
+.op_photo1 {
+    width: 125px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right:12px ;
+    
+}
+.Opinions samp{
+    translate: 5px 30px;
+    font-size: 25px;
+}
+.op2 {
+    display: flex;
+    align-items: center; /* علشان الكلام يكون في نفس مستوى الصورة عموديًا */
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-family: garamond;
+}
+.op2 samp{
+    translate: 10px 30px;
+    font-size: 25px;
+}
+
+.op_photo2 {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right:12px ;
+      font-family: garamond;
+    
+}
+.op3 {
+    display: flex;
+    align-items: center; /* علشان الكلام يكون في نفس مستوى الصورة عموديًا */
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+
+.op_photo3 {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right:12px ;
+    
+}
+.op4 {
+    display: flex;
+    align-items: center; /* علشان الكلام يكون في نفس مستوى الصورة عموديًا */
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.op_photo4 {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right:12px ;
+    
+}
+.op1:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px 10px black;
+    transition: all 0.5s ease;
+}
+.op2:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px 10px black;
+    transition: all 0.5s ease;
+}
+.op3:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px 10px black;
+    transition: all 0.5s ease;
+}
+.op4:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px 10px black;
+    transition: all 0.5s ease;
+}
+
+
+
 
 
 /* this is newsletter & footer */
